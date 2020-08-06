@@ -1,0 +1,19 @@
+.info__block{
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 30px;
+	-webkit-box-shadow: 19px 22px 47px -2px rgba(34, 60, 80, 0.41);
+	-moz-box-shadow: 19px 22px 47px -2px rgba(34, 60, 80, 0.41);
+	box-shadow: 19px 22px 47px -2px rgba(34, 60, 80, 0.41);
+	font-family: "TT Firs Neue Medium";
+	color: 331f1c;
+	font-size: 15px;
+	padding: 15px 15px;
+	margin-top: 30px;
+	width: 250px;
+	.info__img{
+		width: 35px;
+		margin-left: 10px;
+		margin-right: 25px;
+	}
+}

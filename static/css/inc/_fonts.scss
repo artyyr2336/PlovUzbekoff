@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "TT Firs Neue ExtraBold";
+	src: local("TT Firs Neue Extra Bold"), local("TT-Firs-Neue-Extra-Bold"),
+		url("../font/TTFirsNeue-ExtraBold.woff2") format("woff2"),
+		url("../font/TTFirsNeue-ExtraBold.woff") format("woff"),
+		url("../font/TTFirsNeue-ExtraBold.ttf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: "TT Firs Neue Medium";
+	src: local("TT Firs Neue Medium"), local("TT-Firs-Neue-Medium"),
+		url("../font/TTFirsNeue-Medium.woff2") format("woff2"),
+		url("../font/TTFirsNeue-Medium.woff") format("woff"),
+		url("../font/TTFirsNeue-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "TT Firs Neue Regular";
+	src: local("TT Firs Neue Regular"), local("TT-Firs-Neue-Regular"),
+		url("../font/TTFirsNeue-Regular.woff2") format("woff2"),
+		url("../font/TTFirsNeue-Regular.woff") format("woff"),
+		url("../font/TTFirsNeue-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}

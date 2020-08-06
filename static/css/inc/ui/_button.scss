@@ -1,0 +1,43 @@
+.button__brown{
+	background-color: #c0482f;
+	border-radius: 30px;
+	border: 1px solid #c0482f;
+	color: white;
+	font-family: "TT Firs Neue ExtraBold";
+	padding: 10px 25px;
+	-webkit-box-shadow: 22px 30px 34px -2px rgba(34, 60, 80, 0.4);
+	-moz-box-shadow: 22px 30px 34px -2px rgba(34, 60, 80, 0.4);
+	box-shadow: 22px 30px 34px -2px rgba(34, 60, 80, 0.4);
+}
+
+.button__black{
+	background-color: #331f1c;
+}
+
+.item__buy{
+	background-color: #f7f1e5;
+	border-radius: 10px;
+	margin: 15px;
+	.item__buy__-{
+		width: 15px;
+	}
+	.item__buy__text{
+		text-align: center;
+		margin: auto;
+		font-family: "TT Firs Neue ExtraBold";
+		font-weight: bold;
+		font-weight: 1px;
+	}
+	.item__buy__plus{
+		width: 15px;
+	}
+	.item__buy__basket{
+		width: 20px;
+		background-color: #c0482f;
+		border: 1px solid #c0482f;
+		padding: 20px 20px;
+		border-radius: 4px;
+		margin-right: -5px;
+
+	}
+}

@@ -1,0 +1,48 @@
+
+.proposal {
+	margin-top: 50px;
+	.container {
+		background-color: #f7f1e5;
+		border-radius: 30px;
+	}
+
+	.proposal__left__block {
+		margin-top: 40px;
+		padding-left: 65px;
+	}
+	.proposal__left__text-1 {
+		color: #c0482f;
+		font-size: 45px;
+		font-family: "TT Firs Neue ExtraBold";
+	}
+	.proposal__left__text-2 {
+		font-family: "TT Firs Neue Regular";
+		font-size: 45px;
+		margin-top: -15px;
+	}
+	.img__item__block {
+		width: 500px;
+		margin: auto auto;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.proposal__right {
+		margin: auto auto;
+	}
+	.icon {
+		width: 22px;
+	}
+
+	.proposal__left__bonus {
+		p {
+			font-size: 15px;
+			font-family: "TT Firs Neue Medium";
+			margin: auto 40px auto 10px;
+		}
+	}
+	.button_2{
+		margin-top: 30px;
+
+	}
+
+}
