@@ -4,17 +4,24 @@
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	.item__img{
+		height: 300px;
+		margin-top: 10px;
+	}
 	img{
-		width: 300px;
-		margin: 0 auto;
+		
+		width: 250px;
+		margin: 0 16px;
 		
 	}
+
 	.item__name{
 		p{
 			text-align: center;
-			font-family: "TT Firs Extra Bold";
+			font-family: "TT Firs Neue ExtraBold";
 			font-weight: bold;
 			font-size: 20px;
+			color: #331f1c;
 
 		}
 	}
@@ -29,7 +36,7 @@
 	.item__price{
 		p{
 			color: #331f1c;
-			font-family: "TT Firs Extra Bold";
+			font-family: "TT Firs Neue ExtraBold";
 			font-weight: bold;
 			font-size: 25px;
 			text-align: center;

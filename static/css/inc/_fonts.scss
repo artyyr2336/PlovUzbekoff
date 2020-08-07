@@ -26,3 +26,12 @@
 	font-weight: 400;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'TT Firs Neue Bold';
+	src: local('TT Firs Neue Bold'), local('TT-Firs-Neue-Bold'),
+	    url('../../font/TTFirsNeue-Bold.woff2') format('woff2'),
+	    url('../font/TTFirsNeue-Bold.woff') format('woff'),
+	    url('../font/TTFirsNeue-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+      }

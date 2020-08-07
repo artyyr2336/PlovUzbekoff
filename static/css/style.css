@@ -13,6 +13,11 @@
   src: local("TT Firs Neue Regular"), local("TT-Firs-Neue-Regular"), url("../font/TTFirsNeue-Regular.woff2") format("woff2"), url("../font/TTFirsNeue-Regular.woff") format("woff"), url("../font/TTFirsNeue-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
+@font-face {
+  font-family: 'TT Firs Neue Bold';
+  src: local("TT Firs Neue Bold"), local("TT-Firs-Neue-Bold"), url("../../font/TTFirsNeue-Bold.woff2") format("woff2"), url("../font/TTFirsNeue-Bold.woff") format("woff"), url("../font/TTFirsNeue-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -7281,7 +7286,7 @@ a.text-dark:focus, a.text-dark:hover {
   border: 1px solid #c0482f;
   color: white;
   font-family: "TT Firs Neue ExtraBold";
-  padding: 10px 25px;
+  padding: 0 25px;
   -webkit-box-shadow: 22px 30px 34px -2px rgba(34, 60, 80, 0.4);
   -moz-box-shadow: 22px 30px 34px -2px rgba(34, 60, 80, 0.4);
   box-shadow: 22px 30px 34px -2px rgba(34, 60, 80, 0.4); }
@@ -7304,12 +7309,13 @@ a.text-dark:focus, a.text-dark:hover {
   .item__buy .item__buy__plus {
     width: 15px; }
   .item__buy .item__buy__basket {
-    width: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
     background-color: #c0482f;
     border: 1px solid #c0482f;
-    padding: 20px 20px;
     border-radius: 4px;
-    margin-right: -5px; }
+    margin-right: -1px; }
 
 header {
   margin-top: 20px; }
@@ -9032,9 +9038,9 @@ li {
   border: 1px solid white;
   background-color: white;
   border-radius: 30px;
-  -webkit-box-shadow: 19px 22px 47px -2px rgba(34, 60, 80, 0.41);
-  -moz-box-shadow: 19px 22px 47px -2px rgba(34, 60, 80, 0.41);
-  box-shadow: 19px 22px 47px -2px rgba(34, 60, 80, 0.41);
+  -webkit-box-shadow: 13px 12px 54px -29px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 13px 12px 54px -29px rgba(0, 0, 0, 0.75);
+  box-shadow: 13px 12px 54px -29px rgba(0, 0, 0, 0.75);
   font-family: "TT Firs Neue Medium";
   color: 331f1c;
   font-size: 15px;
@@ -9052,14 +9058,18 @@ li {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px; }
+  .big__company__item .item__img {
+    height: 300px;
+    margin-top: 10px; }
   .big__company__item img {
-    width: 300px;
-    margin: 0 auto; }
+    width: 250px;
+    margin: 0 16px; }
   .big__company__item .item__name p {
     text-align: center;
-    font-family: "TT Firs Extra Bold";
+    font-family: "TT Firs Neue ExtraBold";
     font-weight: bold;
-    font-size: 20px; }
+    font-size: 20px;
+    color: #331f1c; }
   .big__company__item .item__text p {
     color: #ada5a4;
     text-align: center;
@@ -9067,9 +9077,215 @@ li {
     font-family: "TT Firs Neue Medium"; }
   .big__company__item .item__price p {
     color: #331f1c;
-    font-family: "TT Firs Extra Bold";
+    font-family: "TT Firs Neue ExtraBold";
     font-weight: bold;
     font-size: 25px;
     text-align: center; }
+
+.cook .cook__block {
+  background-color: #f7f1e5;
+  border: 1px solid #f7f1e5;
+  border-radius: 30px;
+  padding-top: 40px;
+  margin-top: 50px; }
+  .cook .cook__block .cook__top__left {
+    margin-left: 40px; }
+    .cook .cook__block .cook__top__left .cook__top__name-1 {
+      font-size: 45px;
+      color: #331f1c;
+      font-family: "TT Firs Neue Regular"; }
+    .cook .cook__block .cook__top__left .cook__top__name-2 {
+      font-size: 50px;
+      font-family: "TT Firs Neue Bold";
+      color: #bcb2a8;
+      font-weight: bold;
+      margin-top: -30px;
+      margin-bottom: 15px; }
+      .cook .cook__block .cook__top__left .cook__top__name-2 span {
+        font-family: "TT Firs Neue Bold";
+        color: #c0482f;
+        font-weight: bold;
+        border-bottom: 6px solid #c0482f; }
+    .cook .cook__block .cook__top__left .cook__top__opis {
+      font-family: "TT Firs Neue Medium";
+      font-size: 15px;
+      color: #331f1c; }
+    .cook .cook__block .cook__top__left .cook__top__col {
+      padding: 10px;
+      border: 1px solid white;
+      background-color: white;
+      border-radius: 15px;
+      position: relative; }
+      .cook .cook__block .cook__top__left .cook__top__col img {
+        width: 16px; }
+      .cook .cook__block .cook__top__left .cook__top__col .cook__top__col-1, .cook .cook__block .cook__top__left .cook__top__col .cook__top__col-2 {
+        margin: 0 10px; }
+    .cook .cook__block .cook__top__left .cook__top__cop {
+      margin-left: 10px; }
+    .cook .cook__block .cook__top__left .cook__top__set input {
+      margin-top: 30px; }
+  .cook .cook__block .cook__top__center img {
+    width: 300px;
+    margin-bottom: 20px; }
+  .cook .cook__block .cook__top__right .cook__top___right-1 {
+    font-family: "TT Firs Neue ExtraBold";
+    font-size: 25px; }
+  .cook .cook__block .cook__top__right .cook_top__right__img {
+    margin-top: -30px;
+    font-family: "TT Firs Neue Regular"; }
+.cook .cook__block__arrow {
+  margin-top: 6px;
+  margin-bottom: 50px; }
+  .cook .cook__block__arrow .cook__arrow img {
+    background-color: #c0482f;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: -110px;
+    margin-left: 50px !important; }
+.cook .cook__left-take {
+  margin-left: 50px; }
+  .cook .cook__left-take .cook__button__name {
+    font-family: "TT Firs Neue Regular";
+    font-size: 25px; }
+  .cook .cook__left-take .cook__content__block {
+    font-family: "TT Firs Neue Medium";
+    border-bottom: 1px solid #dcd5c7; }
+    .cook .cook__left-take .cook__content__block p {
+      margin-top: 15px !important;
+      margin-left: 20px; }
+    .cook .cook__left-take .cook__content__block img {
+      width: 15px; }
+    .cook .cook__left-take .cook__content__block span {
+      font-family: "TT Firs Neue ExtraBold"; }
+  .cook .cook__left-take .button_2 {
+    margin-top: 40px;
+    margin-bottom: 60px; }
+  .cook .cook__left-take .cook__price-1 {
+    font-family: "TT Firs Neue ExtraBold";
+    margin-top: 40px;
+    font-size: 25px;
+    color: #331f1c; }
+  .cook .cook__left-take .cook__price__video {
+    color: #958880;
+    font-family: "TT Firs Neue Regular";
+    margin-top: 40px;
+    font-size: 25px;
+    margin-left: 15px; }
+    .cook .cook__left-take .cook__price__video img {
+      width: 20px;
+      margin-left: 15px; }
+  .cook .cook__left-take button {
+    padding: 10px 20px; }
+    .cook .cook__left-take button img {
+      width: 30px;
+      margin-left: 15px; }
+
+.uzbek__dish .top__name {
+  font-size: 45px;
+  font-family: "TT Firs Neue Regular";
+  color: #331f1c;
+  font-weight: bold; }
+.uzbek__dish .uzbek__dish__menu p {
+  background-color: #f7f1e5;
+  color: #81736c;
+  margin: 0 10px;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "TT Firs Neue ExtraBold";
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 35px; }
+
+.baran .price__baran,
+.baran .weight__baran {
+  margin-top: 30px;
+  font-family: "TT Firs Neue Regular";
+  margin-bottom: 5px; }
+.baran .price__baran {
+  color: #331f1c;
+  font-size: 30px;
+  margin-left: 30px; }
+.baran .weight__baran {
+  font-size: 30px;
+  margin-left: 30px;
+  color: #a99d95; }
+.baran .opis__baran {
+  color: #331f1c;
+  font-family: "TT Firs Neue Medium"; }
+
+.dishes {
+  margin-top: 60px; }
+  .dishes .top__name {
+    color: #331f1c;
+    font-size: 45px;
+    font-family: "TT Firs Neue Regular"; }
+  .dishes .uzbek__dish__menu {
+    margin-top: 15px;
+    margin-bottom: 30px; }
+  .dishes .uzbek__dish__menu p {
+    color: #81736c;
+    font-family: "TT Firs Neue ExtraBold";
+    background-color: #f7f1e5;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 0 10px; }
+
+.videos {
+  margin-top: 50px; }
+  .videos .video__header-left {
+    font-size: 40px;
+    color: #331f1c;
+    font-family: "TT Firs Neue Regular";
+    font-weight: bold; }
+  .videos .video__header-right {
+    color: #331f1c;
+    font-size: 15px;
+    font-family: "TT Firs Neue ExtraBold";
+    margin-top: 25px; }
+    .videos .video__header-right img {
+      width: 30px; }
+  .videos .video__content {
+    margin-top: 30px; }
+  .videos span {
+    color: #c0482f; }
+  .videos .vid__1,
+  .videos .vid__2 {
+    margin-left: -40px;
+    position: relative; }
+    .videos .vid__1 img,
+    .videos .vid__2 img {
+      width: 490px; }
+    .videos .vid__1 .video__text,
+    .videos .vid__2 .video__text {
+      position: absolute;
+      margin-top: -120px;
+      margin-left: 40px; }
+      .videos .vid__1 .video__text img,
+      .videos .vid__2 .video__text img {
+        width: 45px;
+        height: 45px;
+        background-color: white;
+        border-radius: 10px; }
+      .videos .vid__1 .video__text .video__time,
+      .videos .vid__2 .video__text .video__time {
+        color: white;
+        font-size: 10px;
+        margin-right: 90px; }
+      .videos .vid__1 .video__text .video__opis,
+      .videos .vid__2 .video__text .video__opis {
+        color: white;
+        font-size: 40px; }
+  .videos .vid__left__arrow img {
+    width: 25px;
+    margin-top: 100px; }
+
+.map {
+  margin-top: 100px;
+  margin-right: -300px;
+  color: red; }
+  .map .map__name {
+    margin-right: -300px;
+    color: red; }
 
 /*# sourceMappingURL=style.css.map */
