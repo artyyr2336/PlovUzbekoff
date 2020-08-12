@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="36" viewBox="0 0 40 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0d0a2b;
+        fill-rule: evenodd;
+        opacity: 0.4;
+      }
+    </style>
+  </defs>
+  <path id="footer__tg" class="cls-1" d="M1665,18131v2.3l9.11,3.8,4.01,13.3,2.45,1.7,5.8-7.5,10.27,7.1h2.12l6.24-35.6Zm5.51,1.2,19.05-7.1-14.32,9.1Zm8.94,6.1-0.44,4.2-1.78-5.9,12.67-8Zm2.41,7.1,0.37-3.6,1.57,1.1Zm14.43,2.3-12.87-8.9,17.22-15.9Z" transform="translate(-1665 -18116.1)"/>
+</svg>

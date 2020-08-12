@@ -1,0 +1,281 @@
+@media screen and (max-width: 1200px) {
+	.mobile__menu {
+		display: block;
+	}
+	.menu {
+		display: none; /* пункты меню скрыты */
+		background: #f1f2f4;
+		position: absolute;
+	}
+
+	.menu li {
+		display: block; /* пункты меню в столбцах */
+	}
+
+	.menuBurger {
+		display: inline-block; /* иконка гамбургер видна */
+	}
+	.big__company__item {
+		margin-top: 0px;
+	}
+
+	header {
+		.header__br{
+			display: none;
+		}
+		.menu__header {
+			position: absolute;
+			left: 0;
+			right: 0;
+			.first__menu__li {
+				margin-left: 0;
+			}
+
+			.menu__header__phone {
+				.bacground__phone {
+					display: none;
+				}
+
+				.number {
+					display: none;
+				}
+			}
+			.menu__header__button__block {
+				.menu__header__button__menu {
+					width: 100%;
+
+					.header__menu {
+						z-index: 10;
+						flex-direction: column;
+						margin-left: 30px;
+						font-size: 14px;
+						position: fixed;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+						margin: 0;
+						padding: 50px;
+
+						li {
+							margin-top: 10px;
+						}
+					}
+				}
+
+				.menu__header__button {
+					span {
+					}
+
+					a {
+					}
+
+					img {
+					}
+
+					.buton__header__buy {
+					}
+					.header__button__color {
+						margin-left: 0;
+						display: none;
+
+						span {
+							margin-left: 5px;
+						}
+						.sum__items {
+							p {
+							}
+						}
+					}
+					.button__color__black {
+						a {
+						}
+						span {
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.proposal {
+		.proposal__left__text-1 {
+			font-size: 25px;
+		}
+		.proposal__left__text-2 {
+			font-size: 25px;
+		}
+		.proposal__left__bonus {
+			p {
+				font-size: 14px;
+			}
+			margin-top: 10px;
+		}
+	}
+	.info {
+		.info__block {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.cook {
+		.cook__top__col {
+			span {
+				font-size: 12px;
+			}
+			.cook__top__col-1,
+			.cook__top__col-2 {
+				margin: 0 3px !important;
+			}
+		}
+	}
+	.cook__content__left,
+	.cook__content__right {
+		font-size: 15px;
+	}
+	.proposal {
+		.price__baran {
+			font-size: 20px;
+		}
+		.weight__baran {
+			font-size: 20px;
+		}
+	}
+	.videos .vid__1 .video__text .video__opis,
+	.videos .vid__2 .video__text .video__opis {
+		margin-left: 10px;
+	}
+	.video__text .video__time,
+	.videos .vid__2 .video__text .video__time {
+		margin-left: 10px;
+	}
+	.videos .vid__1 .video__text .video__time,
+	.videos .vid__2 .video__text .video__time {
+		margin-left: 10px;
+	}
+	.videos .vid__arrow .vid__arrow__right {
+		display: none;
+	}
+	.videos .vid__arrow .vid__arrow__left {
+		display: none;
+	}
+	.map {
+		margin-top: 70px;
+		.map__card {
+			.car__icon {
+				margin-top: auto;
+				margin-bottom: auto;
+			}
+			.map__top__info {
+				position: static;
+			}
+			.white__block {
+				border: 1px solid #c0482f;
+				margin-top: 10px;
+				margin-left: 0;
+				margin-left: 10px;
+			}
+
+			.red__map__block {
+				margin-top: 10px;
+				font-size: 15px;
+				margin-left: 0;
+				padding-top: 30px;
+				margin-bottom: auto;
+				margin-top: 10px;
+				margin: 2px;
+
+				span {
+				}
+			}
+			.map__button {
+				bottom: 0;
+				margin-bottom: -60px;
+				p {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+	.instagramm {
+		.inst__head__left {
+			padding-left: 15px;
+		}
+		.instagramm__images {
+			margin: auto;
+			.first__img {
+				text-align: center;
+			}
+			.images__inst {
+				text-align: center;
+			}
+
+			img {
+				margin-top: 10px;
+			}
+			.inst__img-4, .inst__img-5, .inst__img-6{
+				display: none;
+			}
+		}
+	}
+	.footer {
+		.footer__content {
+			.footer__top__margin {
+				margin-bottom: 40px;
+			}
+		}
+		.footer__background__img {
+			width: 50px;
+			height: 50px;
+			img {
+				width: 20px;
+			}
+		}
+		.footer__bumber__content {
+		}
+		.footer__bumber__conten__text-1 {
+		}
+		.footer__bumber__conten__text-2 {
+			font-size: 15px;
+		}
+		.button__footer {
+		}
+		.footer__number,
+		.footer__mail {
+		}
+
+		.bottom__content {
+		}
+		.footer__button {
+		}
+		.footer__white__button {
+		}
+		.button__up {
+			img {
+			}
+		}
+		.first__column {
+			img {
+			}
+			a {
+			}
+			a:hover {
+			}
+		}
+		.download {
+			margin-left: 200px;
+			margin-top: 20px;
+			.messengers__color {
+			}
+
+			a {
+			}
+			.play__market__conent {
+				img {
+				}
+				span {
+				}
+			}
+		}
+	}
+}

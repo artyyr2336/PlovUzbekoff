@@ -1,0 +1,106 @@
+.footer {
+	margin-top: 150px;
+	margin-bottom: 50px;
+	.footer__content {
+		background-color: #f7f1e5;
+		border-radius: 15px;
+		height: 200px;
+		.footer__top__margin{
+			margin-bottom: 40px;
+		}
+	}
+	.footer__background__img {
+		background-color: #331f1c;
+		border-radius: 15px;
+		width: 60px;
+		height: 60px;
+		img {
+			width: 30px;
+			margin-top: 15px;
+			margin-left: 15px;
+		}
+	}
+	.footer__bumber__content {
+		margin-left: 10px;
+	}
+	.footer__bumber__conten__text-1 {
+		color: #c9c3c2;
+		font-family: "TT Firs Neue Regular";
+		font-size: 15px;
+		margin-top: 10px;
+	}
+	.footer__bumber__conten__text-2 {
+		color: #331f1c;
+		font-family: "TT Firs Neue Regular";
+		font-size: 25px;
+		margin-top: -20px;
+	}
+	.button__footer {
+		color: white;
+		border-radius: 30px;
+		border: 1px solid #331f1c;
+		padding: 10px 20px;
+		font-family: "TT Firs Neue ExtraBold";
+	}
+	.footer__number,
+	.footer__mail {
+		margin-top: -45px;
+		margin-left: 30px;
+	}
+
+	.bottom__content {
+
+	}
+	.footer__button {
+		margin-top: -35px;
+	}
+	.footer__white__button {
+		background-color: white;
+		margin-left: 30px;
+	}
+	.button__up {
+		img {
+			width: 30px;
+			margin-left: 0;
+			margin-top: 0;
+		}
+	}
+	.first__column {
+		img {
+			width: 15px;
+		}
+		a {
+			color: #81736c;
+		}
+		a:hover {
+			color: #81736c;
+		}
+	}
+	.download {
+		.ios__span{
+			margin-left: 15px;
+		}
+		margin-left: -20px;
+		.messengers__color {
+			background-color: #c0482f;
+			border: 1px solid #c0482f;
+			font-size: 16px;
+			border-radius: 25px;
+			margin-left: -30px;
+		}
+
+		a {
+			color: #ffffff;
+		}
+		.play__market__conent {
+			img {
+				width: 20px;
+				margin-left: 25px;
+			}
+		}
+		span {
+			margin-right: 30px;
+		}
+
+	}
+}

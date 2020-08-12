@@ -1,0 +1,201 @@
+@media screen and (max-width: 991px) {
+	.proposal .img__item__block {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.proposal {
+		.proposal__left__block {
+			margin-top: 0;
+			margin: 0 auto;
+		}
+	}
+	.proposal .button_2 {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.map .map__card .red__map__block {
+		margin-top: 15px;
+	}
+	.baran__button{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.cook .cook__block .cook__top__left .cook__top__cop {
+		margin-left: 0;
+		width: 150px;
+	}
+	.cook {
+		.cook__block {
+			.cook__top__left {
+				.cook__top__col {
+					margin-bottom: 10px;
+					width: 150px;
+				}
+			}
+		}
+		.cook__top__buttons {
+			width: 250px;
+			justify-content: center;
+		}
+	}
+	.cook .cook__block .cook__top__center img {
+		width: 25%;
+	}
+	.big__company {
+		margin-top: 50px;
+		.item__name {
+			height: 60px;
+		}
+	}
+
+	.cook {
+		.cook__top__right {
+			display: none;
+		}
+		.cook__top__left {
+		}
+		.cook__top__center {
+			img {
+				display: none;
+			}
+		}
+	}
+	.cook .cook__block .cook__top__left .cook__top__col {
+		width: 170px;
+	}
+	.cook {
+		.cook__block {
+			.cook__top__cop {
+				margin-left: 10px;
+			}
+		}
+	}
+	.cook .cook__left-take .cook__price__video {
+		margin-top: 15px;
+		margin-left: 0;
+	}
+	.baran__reverse {
+		flex-direction: column-reverse;
+	}
+	.baran__reverse__button {
+		flex-direction: column-reverse;
+	}
+	.videos .video__header-right {
+		padding-left: 0;
+	}
+
+	.videos .vid__1 .video__text .video__opis,
+	.videos .vid__2 .video__text .video__opis {
+		font-size: 12px;
+	}
+	.videos .vid__1 .video__text img,
+	.videos .vid__2 .video__text img {
+		width: 20px;
+	}
+	.videos .vid__1 .video__text .video__play,
+	.videos .vid__2 .video__text .video__play {
+		width: 50px;
+		height: 50px;
+		border-radius: 10px;
+	}
+	.videos .vid__1 .video__text img,
+	.videos .vid__2 .video__text img {
+		margin-top: 13px;
+		margin-left: 15px;
+	}
+	.videos .vid__1 .video__text,
+	.videos .vid__2 .video__text {
+		margin-top: -70px;
+	}
+	.videos .vid__1 img,
+	.videos .vid__2 img {
+		margin: 10px 0;
+	}
+	.map {
+		.map__card {
+			.map__button {
+				height: 60px;
+				margin-bottom: -60px;
+				width: 500px;
+				p{
+					margin-top: 10px;
+				}
+				
+			}
+			.white__block{
+				margin-left: 0;
+			}
+		}
+	}
+	.footer {
+		.footer__content {
+			.footer__top__margin {
+				margin-bottom: 10px;
+			}
+		}
+		.footer__background__img {
+			margin-top: 20px;
+			width: 30px;
+			height: 30px;
+			img {
+				width: 10px;
+				margin-top: 5px;
+				margin-left: 10px;
+			}
+		}
+		.footer__bumber__content {
+		}
+		.footer__bumber__conten__text-1 {
+		}
+		.footer__bumber__conten__text-2 {
+			font-size: 10px;
+		}
+		.button__footer {
+			font-size: 11px;
+			
+		}
+		.footer__number,
+		.footer__mail {
+		}
+
+		.bottom__content {
+		}
+		.footer__button {
+			margin-top: -25px;
+		}
+		.footer__white__button {
+		}
+		.button__up {
+			img {
+				margin-left: 1px;
+				margin-top: 1px;
+			}
+		}
+		.first__column {
+			img {
+			}
+			a {
+			}
+			a:hover {
+			}
+		}
+		.download {
+			.ios__span{
+				margin-left: 0
+			}
+			.messengers__color {
+			}
+
+			a {
+			}
+			.play__market__conent {
+				img {
+				}
+				span {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}

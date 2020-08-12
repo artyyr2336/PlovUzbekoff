@@ -1,0 +1,40 @@
+.instagramm {
+	margin-top: 90px;
+	.inst__head__right {
+		font-family: "TT Firs Neue Regular";
+		font-size: 40px;
+		color: #331f1c;
+	}
+	.inst__head__left {
+		font-family: "TT Firs Neue ExtraBold";
+		color: #331f1c;
+		padding-left: 300px;
+
+		img {
+			width: 10px;
+		}
+		button {
+			margin-left: 15px;
+			border: none;
+			background-color: white;
+			img {
+				width: 10px;
+			}
+		}
+		.inst__button__white {
+			background-color: #c0482f;
+			border-radius: 100px;
+			width: 50px;
+			height: 50px;
+		}
+	}
+	.instagramm__images {
+		margin-top: 50px;
+
+		img {
+			width: 250px;
+			
+		}
+
+	}
+}

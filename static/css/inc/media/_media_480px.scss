@@ -1,0 +1,150 @@
+@media screen and (max-width:480px){
+	header .header__logo__img {
+		width: 350%;}
+	.cook .cook__block .cook__top__left .cook__top__name-1 {
+	font-size: 25px;
+	margin-bottom: 15px;
+	}
+	.cook .cook__block .cook__top__left .cook__top__name-2 {
+		font-size: 33px;
+	}
+	.cook{
+		.br__cook{
+			display: inline;
+		}
+	}
+	.cook__content__left, .cook__content__right{
+		font-size: 10px;
+	}
+	.price__cook__constructor{
+		padding: 0 !important;
+	}
+	.cook__content__left{
+		padding-left: 0 !important;
+	}
+	.cook__content__right{
+		padding-left: 0 !important;
+	}
+	.cook .cook__left-take .cook__price-1 {
+		font-size: 14px;
+	}
+	.cook .cook__left-take .cook__price__video {
+		font-size: 12px;
+	}
+	.cook .cook__left-take .button_2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.potato__baran{
+		margin-top: 10px;
+	}
+	.instagramm{
+		margin-top: 40px;
+		.instagramm__images{
+			.inst__img-2{
+				display: none;
+			}
+		}
+	}
+	.map {
+		.map__card {
+
+			.map__button {
+				display: none;
+			}
+		}
+	}
+	.uzbek__dish{
+		.top__name{
+			font-size: 35px;
+		}
+	}
+	.dishes{ 
+		.top__name {
+			font-size: 35px;
+	
+		}
+	}
+	.footer {
+		.footer__content {
+			.footer__top__margin {
+				margin-bottom: 10px;
+			}
+		}
+		.footer__background__img {
+			margin-top: 20px;
+			width: 30px;
+			height: 30px;
+			img {
+				width: 10px;
+				margin-top: 5px;
+				margin-left: 10px;
+			}
+		}
+		.footer__bumber__content {
+		}
+		.footer__bumber__conten__text-1 {
+		}
+		.footer__bumber__conten__text-2 {
+			font-size: 10px;
+		}
+		.button__footer {
+			font-size: 11px;
+			
+		}
+		.footer__number,
+		.footer__mail {
+			margin-top: 5px;
+		}
+
+		.bottom__content {
+			margin-top: 40px;
+		}
+		.footer__button {
+			margin-top: 10px;
+			margin-left: 25px;
+		}
+		.footer__white__button {
+		}
+		.button__up {
+			display: none;
+		}
+		.first__column {
+			
+			img {
+				font-size: 10px;
+			}
+			a {
+				font-size: 10px;
+			}
+			a:hover {
+			}
+		}
+		.download {
+			margin-left: 30px;
+			.ios__span{
+				margin-left: 0
+			}
+			.messengers__color {
+			}
+
+			a {
+			}
+			.play__market__conent {
+				img {
+				}
+				span {
+					margin-left: 15px;
+					font-size: 12px;
+					padding: 10px;
+				}
+			}
+		}
+
+		.footer__item__ios {
+			margin-left: 30px !important;
+			margin-bottom: 40px;
+		}
+	}
+	
+}

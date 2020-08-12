@@ -1,0 +1,159 @@
+@media screen and (max-width:768px){
+	.proposal{
+		.proposal__right{
+			width: 80%;
+			margin: 0 auto;
+		}
+		.proposal__left{
+			margin: 0 auto;
+		}
+		.proposal__right{
+			margin: 0 auto;
+		}
+		.proposal__str-1{
+			flex-direction: column-reverse;
+		}
+	}
+	.cook__content__left, .cook__content__right{
+		font-size: 13px;
+	}
+	.cook .cook__left-take .cook__price-1 {
+		font-size: 18px;
+	}
+	.cook .cook__left-take .cook__price__video {
+		font-size: 15px;
+	}
+	.cook .cook__left-take .button_2 {
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	.big__company__item img {
+		width: 200px;
+	}
+	.big__company__item .item__img {
+		height: 220px;
+	}
+	.baran__reverse{
+		flex-direction: column-reverse;
+	}
+	.videos .video__header-right {
+		padding-left: 30px;
+	}
+	.map {
+		margin-top: 40px;
+		.map__name {
+			.map__name__text-1 {
+				font-size: 25px;
+			}
+		}
+		.map__adress {
+			.map__name__text-2 {
+				font-size: 25px;
+				margin-bottom: 25px;
+			}
+		}
+		.map__card {
+			.red__map__block {
+				font-size: 12px;
+			}
+		}
+	}
+	.baran {
+		padding: 20px;
+	
+	}
+	.instagramm{
+		.instagramm__images{
+			.inst__img-2{
+				display: none;
+			}
+			.inst__img-3{
+				display: none;
+			}
+		}
+	}
+
+	.footer {
+		margin-top: 50px;
+		.footer__content {
+			.footer__top__margin {
+				margin-bottom: 10px;
+			}
+		}
+		.footer__background__img {
+			margin-top: 20px;
+			width: 30px;
+			height: 30px;
+			img {
+				width: 10px;
+				margin-top: 5px;
+				margin-left: 10px;
+			}
+		}
+		.footer__bumber__content {
+		}
+		.footer__bumber__conten__text-1 {
+		}
+		.footer__bumber__conten__text-2 {
+			font-size: 10px;
+		}
+		.button__footer {
+			font-size: 11px;
+			
+		}
+		.footer__number,
+		.footer__mail {
+			margin-top: 5px;
+		}
+
+		.bottom__content {
+			margin-top: 40px;
+		}
+		.footer__button {
+			margin-top: 10px;
+			margin-left: 25px;
+		}
+		.footer__white__button {
+		}
+		.button__up {
+			display: none;
+		}
+		.first__column {
+			
+			img {
+				
+			}
+			a {
+				
+			}
+			a:hover {
+			}
+		}
+		.download {
+			margin-left: 30px;
+			.ios__span{
+				margin-left: 0
+			}
+			.messengers__color {
+			}
+
+			a {
+			}
+			.play__market__conent {
+				img {
+				}
+				span {
+					margin-left: 0;
+					padding: 5px;
+				}
+			}
+		}
+
+		.footer__item__ios {
+			margin-left: 30px !important;
+			margin-bottom: 40px;
+		}
+	}
+	
+		
+}
