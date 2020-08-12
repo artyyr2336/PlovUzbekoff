@@ -1,4 +1,10 @@
 @media screen and (max-width:768px){
+	.instagramm{
+		margin-top: 50px;
+	}
+	.instagramm .instagramm__images .inst__img-3 {
+		display: none;
+	}
 	.proposal{
 		.proposal__right{
 			width: 80%;
@@ -39,6 +45,20 @@
 	.videos .video__header-right {
 		padding-left: 30px;
 	}
+	.price__baran, .baran .weight__baran {
+		margin-top: 10px;
+	}
+	.baran .price__baran {
+		margin-left: 10px;
+	}
+	.map__card .map__top__info .white__block {
+		margin-left: 0 !important;
+	}
+	.map__card .map__top__info{
+		display: none;
+	}
+	.map .map__card .map__top__info {
+		top: unset;
 	.map {
 		margin-top: 40px;
 		.map__name {
@@ -55,23 +75,20 @@
 		.map__card {
 			.red__map__block {
 				font-size: 12px;
+				padding: 0;
 			}
 		}
 	}
 	.baran {
 		padding: 20px;
-	
-	}
-	.instagramm{
-		.instagramm__images{
-			.inst__img-2{
-				display: none;
-			}
-			.inst__img-3{
-				display: none;
+		.proposal__left__block{
+			p{
+
 			}
 		}
+	
 	}
+	
 
 	.footer {
 		margin-top: 50px;
@@ -156,4 +173,5 @@
 	}
 	
 		
+	}
 }

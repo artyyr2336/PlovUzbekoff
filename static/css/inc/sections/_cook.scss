@@ -1,99 +1,94 @@
-.cook{
-	.br__cook{
+.cook {
+	.br__cook {
 		display: none;
 	}
-	.cook__block{
+	.cook__block {
 		background-color: #f7f1e5;
 		border: 1px solid #f7f1e5;
 		border-radius: 30px;
 		padding-top: 40px;
 		margin-top: 50px;
-		.cook__top__col{
-			span{
+		.cook__top__col {
+			span {
 				margin: auto;
 			}
 		}
-	
-		.cook__top__left{
+
+		.cook__top__left {
 			margin-left: 40px;
-			.cook__top__name-1{
+			.cook__top__name-1 {
 				font-size: 45px;
 				color: #331f1c;
 				font-family: "TT Firs Neue Regular";
-
 			}
-			.cook__top__name-2{
+			.cook__top__name-2 {
 				font-size: 50px;
 				font-family: "TT Firs Neue Bold";
-				color:#bcb2a8;
+				color: #bcb2a8;
 				font-weight: bold;
 				margin-top: -30px;
 				margin-bottom: 15px;
-				span{
+				span {
 					font-family: "TT Firs Neue Bold";
-					color:#c0482f;
+					color: #c0482f;
 					font-weight: bold;
 					border-bottom: 6px solid #c0482f;
 				}
 			}
-			.cook__top__opis{
+			.cook__top__opis {
 				font-family: "TT Firs Neue Medium";
 				font-size: 15px;
 				color: #331f1c;
 			}
-			.cook__top__col{
+			.cook__top__col {
 				padding: 10px;
 				border: 1px solid white;
 				background-color: white;
 				border-radius: 15px;
 				position: relative;
 				font-size: 13px;
-				font-family: "TT Firs Neue ExtraBold";
-				img{
+				font-weight: 800;
+				img {
 					width: 10px;
 				}
-				.cook__top__col-1,.cook__top__col-2{
+				.cook__top__col-1,
+				.cook__top__col-2 {
 					margin: 0 10px;
 				}
 			}
-			.cook__top__cop{
+			.cook__top__cop {
 				margin-left: 10px;
 				color: #c0482f;
 			}
-			.cook__top__set{
-				input{
+			.cook__top__set {
+				input {
 					margin-top: 30px;
-
 				}
 			}
-
-
 		}
-		.cook__top__center{
-			img{
+		.cook__top__center {
+			img {
 				width: 100%;
 				height: auto;
 				margin-bottom: 20px;
 			}
-
 		}
-		.cook__top__right{
-			.cook__top___right-1{
-				font-family: "TT Firs Neue ExtraBold";
+		.cook__top__right {
+			.cook__top___right-1 {
+				font-weight: 800;
 				font-size: 25px;
 			}
-			.cook_top__right__img{
+			.cook_top__right__img {
 				margin-top: -30px;
 				font-family: "TT Firs Neue Regular";
 			}
-
 		}
 	}
-	.cook__block__arrow{
+	.cook__block__arrow {
 		margin-top: 6px;
 		margin-bottom: 50px;
-		.cook__arrow{
-			img{
+		.cook__arrow {
+			img {
 				background-color: #c0482f;
 				padding: 10px;
 				border-radius: 15px;
@@ -102,60 +97,57 @@
 			}
 		}
 	}
-	.cook__left-take{
-		margin-left:30px;
+	.cook__left-take {
+		margin-left: 30px;
 
-		.cook__button__name{
+		.cook__button__name {
 			font-family: "TT Firs Neue Regular";
 			font-size: 25px;
 		}
 
-		.cook__content__block{
+		.cook__content__block {
 			font-family: "TT Firs Neue Medium";
 			border-bottom: 1px solid #dcd5c7;
-			p{
+			p {
 				margin-top: 15px !important	;
 			}
-		
-			img{
-				width:15px;
-			}
-			span{
-				font-family: "TT Firs Neue ExtraBold";
-			}
 
+			img {
+				width: 15px;
+			}
+			span {
+				font-weight: 800;
+			}
 		}
-		.button_2{
+		.button_2 {
 			margin-top: 40px;
 			margin-bottom: 60px;
 		}
-		.cook__price-1{
-			font-family: "TT Firs Neue ExtraBold";
+		.cook__price-1 {
+			font-weight: 800;
 			margin-top: 40px;
 			font-size: 25px;
 			color: #331f1c;
-
 		}
-		.cook__price__video{
+		.cook__price__video {
 			color: #958880;
 			font-family: "TT Firs Neue Regular";
 			margin-top: 40px;
 			font-size: 25px;
 			margin-left: 15px;
-			img{
+			img {
 				width: 20px;
 				margin-left: 15px;
 			}
 		}
-		button{
+		button {
 			padding: 10px 20px;
-			img{
+			img {
 				width: 30px;
 				margin-left: 15px;
 			}
 		}
 	}
-	
 }
 .cook .cook__left-take .cook__content__block img {
 	margin-right: 10px;

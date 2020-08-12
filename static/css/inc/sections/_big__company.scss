@@ -1,56 +1,50 @@
-.big__company__item{
+.big__company__item {
 	border: 1px solid #f0e9db;
 	border-radius: 25px;
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	
-	.item__img{
-		height: 300px;
-		margin-top: 10px;
 
+	.item__img {
+		height: 250px;
+		margin-top: 10px;
 	}
-	img{
-		
-		width: 250px;
+	img {
+		width: 230px;
 		display: block;
 		margin: auto auto;
-		
-		
 	}
 
-	.item__name{
-		p{
+	.item__name {
+		p {
 			text-align: center;
-			font-family: "TT Firs Neue ExtraBold";
+			font-weight: 800;
 			font-weight: bold;
 			font-size: 20px;
 			color: #331f1c;
-
 		}
 	}
-	.item__text{
-		p{
+	.item__text {
+		p {
 			color: #ada5a4;
 			text-align: center;
 			font-size: 15px;
 			font-family: "TT Firs Neue Medium";
 		}
 	}
-	.item__price{
-		p{
+	.item__price {
+		p {
 			color: #331f1c;
-			font-family: "TT Firs Neue ExtraBold";
+			font-weight: 800;
 			font-weight: bold;
 			font-size: 25px;
 			text-align: center;
 		}
 	}
-	.item__buy__plus{
+	.item__buy__plus {
 		margin-right: 20px;
 	}
-
 }
-.big__company{
+.big__company {
 	margin-top: 100px;
 }

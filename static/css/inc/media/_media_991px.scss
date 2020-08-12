@@ -7,14 +7,30 @@
 		.proposal__left__block {
 			margin-top: 0;
 			margin: 0 auto;
+			button{
+				height: 35px !important;
+			}
 		}
+		.proposal__item{
+			margin-top: 5px;
+		}
+		.proposal__left__bonus{
+			p{
+				margin: auto 0px auto 8px;
+			}
+			
+		}
+		
 	}
 	.proposal .button_2 {
 		margin-top: 10px;
 		margin-bottom: 20px;
 	}
-	.map .map__card .red__map__block {
-		margin-top: 15px;
+	.info__block{
+		padding: 5px 15px;
+		.info__img{
+
+		}
 	}
 	.baran__button{
 		padding-top: 5px;
@@ -26,6 +42,9 @@
 		width: 150px;
 	}
 	.cook {
+		.cook__price-1{
+			margin-top: 20px !important;
+		}
 		.cook__block {
 			.cook__top__left {
 				.cook__top__col {
@@ -42,20 +61,41 @@
 	.cook .cook__block .cook__top__center img {
 		width: 25%;
 	}
+	.cook__top__left{
+		.cook__top__set{
+			p:not(:last-child){
+				height: 10px;
+			}
+		}
+	}
+	.cook .cook__left-take button{
+		margin-top: 20px !important;
+		margin-bottom: 20px !important;
+	}
 	.big__company {
 		margin-top: 50px;
 		.item__name {
 			height: 60px;
 		}
 	}
+	.big__company__item{
+		.item__name{
+			height: 35px;
+			p{
+				font-size: 20px;
+			}
+		}
+	}
 
 	.cook {
 		.cook__top__right {
 			display: none;
+			
 		}
 		.cook__top__left {
 		}
 		.cook__top__center {
+			display: none;
 			img {
 				display: none;
 			}
@@ -83,6 +123,11 @@
 	}
 	.videos .video__header-right {
 		padding-left: 0;
+	}
+	.instagramm {
+		.inst__head__left {
+			padding-left: 0px;
+		}
 	}
 
 	.videos .vid__1 .video__text .video__opis,
@@ -112,22 +157,48 @@
 	.videos .vid__2 img {
 		margin: 10px 0;
 	}
-	.map {
-		.map__card {
-			.map__button {
-				height: 60px;
-				margin-bottom: -60px;
-				width: 500px;
-				p{
-					margin-top: 10px;
-				}
-				
-			}
-			.white__block{
-				margin-left: 0;
-			}
-		}
+	.videos{
+		margin-top: 30px;
 	}
+	.map{
+		margin-top: 30px;
+		
+	}
+	.map .map__card .map__top__info .white__block .map__time p {
+		font-size: 15px;
+	}
+	.map .map__card .map__top__info{
+		top: 10px;
+	}
+	.map .map__card .map__button {
+		bottom: 80px;
+		width: 250px;
+	}
+	.baran {
+
+		.price__baran,
+		.weight__baran {
+
+		}
+		.price__baran{
+
+		}
+		.weight__baran{
+
+	
+		}
+		.opis__baran{
+
+		}
+		.baran__button{
+			width: 250px;
+			font-size: 15px;
+			padding: 10px 5px;
+		}
+	
+	}
+	
+
 	.footer {
 		.footer__content {
 			.footer__top__margin {
@@ -198,4 +269,5 @@
 			}
 		}
 	}
+
 }

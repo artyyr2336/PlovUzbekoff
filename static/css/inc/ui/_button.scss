@@ -1,39 +1,39 @@
-.button__brown{
+.button__brown {
 	background-color: #c0482f;
 	border-radius: 30px;
 	border: 1px solid #c0482f;
 	color: white;
-	font-family: "TT Firs Neue ExtraBold";
+	font-weight: 800;
 	padding: 0 25px;
-	box-shadow:13px 10px 13px 0px rgba(0,0,0,0.11);
-	-webkit-box-shadow:13px 10px 13px 0px rgba(0,0,0,0.11);
-	-moz-box-shadow:13px 10px 13px 0px rgba(0,0,0,0.11);
+	box-shadow: 13px 10px 13px 0px rgba(0, 0, 0, 0.11);
+	-webkit-box-shadow: 13px 10px 13px 0px rgba(0, 0, 0, 0.11);
+	-moz-box-shadow: 13px 10px 13px 0px rgba(0, 0, 0, 0.11);
 }
 
-.button__black{
+.button__black {
 	background-color: #331f1c;
 }
 
-.item__buy{
+.item__buy {
 	background-color: #f7f1e5;
 	border-radius: 10px;
 	margin: 15px;
-	
-	.item__buy__-{
+
+	.item__buy__- {
 		width: 15px;
 		margin-left: 20px;
 	}
-	.item__buy__text{
+	.item__buy__text {
 		text-align: center;
 		margin: auto;
-		font-family: "TT Firs Neue ExtraBold";
+		font-weight: 800;
 		font-weight: bold;
 		font-weight: 1px;
 	}
-	.item__buy__plus{
+	.item__buy__plus {
 		width: 15px;
 	}
-	.item__buy__basket{
+	.item__buy__basket {
 		width: 40px;
 		height: 40px;
 		padding: 10px;
@@ -41,12 +41,9 @@
 		border: 1px solid #c0482f;
 		border-radius: 4px;
 		margin-right: -1px;
-
 	}
 }
-.basket__button{
+.basket__button {
 	margin-left: 0;
 	padding-right: 0px !important;
-
-	
 }

@@ -2,11 +2,14 @@
 	header .header__logo__img {
 		width: 350%;}
 	.cook .cook__block .cook__top__left .cook__top__name-1 {
-	font-size: 25px;
+		font-size: 40px;
 	margin-bottom: 15px;
 	}
 	.cook .cook__block .cook__top__left .cook__top__name-2 {
 		font-size: 33px;
+	}
+	.potato__baran{
+		margin-top: 20px;
 	}
 	.cook{
 		.br__cook{
@@ -14,7 +17,12 @@
 		}
 	}
 	.cook__content__left, .cook__content__right{
-		font-size: 10px;
+		font-size: 12px;
+	}
+	.baran__button{
+		width: 150px;
+		font-size: 12px;
+		padding: 10px 5px;
 	}
 	.price__cook__constructor{
 		padding: 0 !important;
@@ -46,7 +54,16 @@
 			}
 		}
 	}
+	.map .map__adress .map__name__text-2 {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
 	.map {
+		.map__name{
+			.map__name__text-1{
+				font-size: 29px;
+			}
+		}
 		.map__card {
 
 			.map__button {
@@ -66,6 +83,7 @@
 		}
 	}
 	.footer {
+		margin-top: 50px;
 		.footer__content {
 			.footer__top__margin {
 				margin-bottom: 10px;
@@ -146,5 +164,6 @@
 			margin-bottom: 40px;
 		}
 	}
+
 	
 }

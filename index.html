@@ -5,16 +5,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./static/css/style.css" />
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-		crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-		crossorigin="anonymous"></script>
-	<script src="./static/css/inc/media/script.js"></script>
 	<title>PlovUzbekoff | Marvel</title>
 </head>
 
@@ -56,15 +46,19 @@
 					</div>
 					<div class="menu__header__button__block  d-flex ">
 						<div class="menu__header__button__menu d-xl-flex d-none">
-						
+
 							<ul class='header__menu menu clearfix d-flex' style="">
-								<li><a href="#">Большая<br class='header__br'>компания</a></li>
+								<li><a href="#">Большая<br
+											class='header__br'>компания</a>
+								</li>
 								<li class='first__menu__li'><a href="#">Готовлю<br>все
 										сам</a></li>
-								<li class='first__menu__li'><a
-										href="#">Узбекские<br class='header__br'>блюда</a></li>
+								<li class='first__menu__li'><a href="#">Узбекские<br
+											class='header__br'>блюда</a>
+								</li>
 								<li class='first__menu__li end__li'><a
-										href="#">Барашек<br class='header__br'>на
+										href="#">Барашек<br
+											class='header__br'>на
 										тандыре</a>
 								</li>
 								<li class='mobile__menu'><a href="#">Посуда и
@@ -77,12 +71,14 @@
 										href="#">Instagram</a>
 								</li>
 							</ul>
-							
+
 						</div>
 						<div onclick="menuShow()" class="menuBurger">
-								<span class='main-item' href=""><img src="./static/picture/icon/menu.svg" alt="" style ='     right: 0; position: absolute;'></span>
-							</div>
-							
+							<span class='main-item' href=""><img
+									src="./static/picture/icon/menu.svg" alt=""
+									style='     right: 0; position: absolute;'></span>
+						</div>
+
 						<div class="menu__header__button d-flex">
 							<div class="header__button__color"><a class=" d-flex" href="">
 									<img src="./static/picture/icon/basket.svg"
@@ -114,20 +110,26 @@
 		<div class="container">
 			<div class="row proposal__str-1">
 				<div class="proposal__left__block col-12 col-md-6">
-					<p class='proposal__left__text-1'>
+					<p class='proposal__left__text-1 baran__left__text-1'>
 						Новый плов
 					</p>
-					<p class='proposal__left__text-2'>
+					<p class='proposal__left__text-2 baran__left__text-2'>
 						Чайханский вечер <br>
 						> С доставкой за 890₽
 					</p>
-					<div class="proposal__left__bonus d-flex">
-						<img class='icon' src="./static/picture/icon/item_brown.svg" alt="">
-						<p>4 персоны</p>
-						<img class='icon' src="./static/picture/icon/tomato.svg" alt="">
-						<p>плюс бонус нарезка салатов и соусы</p>
+					<div class="proposal__left__bonus row">
+						<div class="proposal__item col-12 col-lg-6 d-flex">
+							<img class='icon' src="./static/picture/icon/item_brown.svg"
+								alt="">
+							<p>4 персоны</p>
+						</div>
+						<div class="proposal__item col-12 col-lg-6 d-flex">
+							<img class='icon' src="./static/picture/icon/tomato.svg" alt="">
+							<p>плюс бонус нарезка салатов и соусы</p>
+						</div>
 					</div>
-					<button class='button__brown button_2' style="height:55px;">Заказать
+					<button class='button__brown button_2 proposal__button baran__proporsal__button'
+						style="height:55px;">Заказать
 						сейчас</button>
 				</div>
 				<div class="proposal__right col-12 col-md-6">
@@ -139,42 +141,42 @@
 	<div class="info">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="info__block d-flex">
 						<img class='info__img' src="./static/picture/icon/company.svg" alt="">
 						<p class='info__text'>
-							Накормим <br>
-							большую <br>
+							Накормим <br class='info__span'>
+							большую <br class='info__span'>
 							компанию
 						</p>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="info__block d-flex">
 						<img class='info__img' src="./static/picture/icon/calendar.svg" alt="">
 						<p class='info__text'>
-							Можно заказат<br>
-							за несколько<br>
+							Можно заказат<br class='info__span'>
+							за несколько<br class='info__span'>
 							дней
 						</p>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="info__block d-flex">
 						<img class='info__img' src="./static/picture/icon/car.svg" alt="">
 						<p class='info__text'>
-							Доставим <br>
-							вовремя и все<br>
+							Доставим <br class='info__span'>
+							вовремя и все<br class='info__span'>
 							будет горячим!
 						</p>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="info__block d-flex">
 						<img class='info__img' src="./static/picture/icon/ok.svg" alt="">
 						<p class='info__text'>
-							Только свежее <br>
-							халяль мясо<br>
+							Только свежее <br class='info__span'>
+							халяль мясо<br class='info__span'>
 							и овощи
 						</p>
 					</div>
@@ -186,7 +188,7 @@
 		<div class="container">
 			<h2>Большая компания</h2>
 			<div class="row d-flex">
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item1.png" alt="">
@@ -212,7 +214,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item2.png" alt="">
@@ -238,7 +240,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item3.png" alt="">
@@ -264,7 +266,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item4.png" alt="">
@@ -293,7 +295,7 @@
 
 			</div>
 			<div class="row d-flex">
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item5.png" alt="">
@@ -319,7 +321,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item6.png" alt="">
@@ -345,7 +347,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item7.png" alt="">
@@ -371,7 +373,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item8.png" alt="">
@@ -400,7 +402,7 @@
 
 			</div>
 			<div class="row d-flex">
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item9.png" alt="">
@@ -426,7 +428,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item10.png" alt="">
@@ -452,7 +454,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item11.png" alt="">
@@ -478,7 +480,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-xl-3">
+				<div class="col-12 col-sm-6 col-lg-3">
 					<div class="big__company__item">
 						<div class="item__img">
 							<img src="./static/picture/img/item12.png" alt="">
@@ -536,7 +538,7 @@
 									alt="">
 							</div>
 						</div>
-						<div class="cook__top__set d-flex">
+						<div class="cook__top__set col-12 d-block d-lg-flex">
 							<p><input type="checkbox" name="a" value="Овощи к плову"
 									checked> Овощи к плову</p>
 							<p><input type="checkbox" name="a" value="Соусы"> Соусы</p>
@@ -546,7 +548,7 @@
 						</div>
 
 					</div>
-					<div class="cook__top__center col-12 col-lg-4">
+					<div class="cook__top__center col-5  col-lg-4">
 						<img src="./static/picture/img/item1_1.png" alt="">
 					</div>
 					<div class="cook__top__right col-3">
@@ -683,7 +685,7 @@
 							</div>
 						</div>
 					</div>
-					<button class='button__brown button_2 d-flex'>
+					<button class='button__brown button_2 button__cook d-flex'>
 						Добавить в корзину
 						<img src="./static/picture/icon/white__basket.svg" alt="">
 					</button>
@@ -828,10 +830,9 @@
 		<div class="proposal">
 			<div class="container">
 				<div class="row baran__reverse">
-
-					<div class="proposal__left__block col-12 col-md-6">
+					<div class="proposal__left__block col-12 col-lg-6">
 						<p class='proposal__left__text-2'>
-							Сочный барашек<br>
+							Сочный барашек<br class='baran__br d-none d-lg-block'>
 							на тандыре
 						</p>
 						<p class='opis__baran'>
@@ -840,17 +841,20 @@
 						</p>
 						<div class="proposal__left__bonus d-flex row">
 							<div class="col-12 col-sm-6 d-flex">
-							<img class='icon ' src="./static/picture/icon/item_brown.svg"
-								alt="">
-							<p>10 персон</p>
-						</div>
-						<div class="col-12 col-sm-6 d-flex potato__baran">
-							<img class='icon' src="./static/picture/icon/tomato.svg" alt="">
-							<p>плюс бонус нарезка салатов и соусы</p>
-						</div>
+								<img class='icon '
+									src="./static/picture/icon/item_brown.svg"
+									alt="">
+								<p>10 персон</p>
+							</div>
+							<div class="col-12 col-sm-6 d-flex potato__baran">
+								<img class='icon' src="./static/picture/icon/tomato.svg"
+									alt="">
+								<p>плюс бонус нарезка салатов и соусы</p>
+							</div>
 						</div>
 						<div class="d-flex row baran__reverse__button">
-							<button class='button__brown button_2 baran__button col-12 col-lg-4'>Заказать
+							<button
+								class='button__brown button_2 baran__button col-12 col-lg-4'>Заказать
 								сейчас</button>
 							<p class='price__baran col-12 col-lg-4'>8 600 ₽</p>
 							<p class="weight__baran col-12 col-lg-3">12 кг</p>
@@ -1069,16 +1073,16 @@
 				<img src="./static/picture/img/map__background.png" alt="">
 				<div class="map__top__buttons">
 					<div class="row map__top__info">
-						<div class="col-12 col-lg-5 d-flex red__map__block">
+						<div class="col-12 col-md-5 d-flex red__map__block">
 							<img class='car__icon'
 								src="./static/picture/icon/car__white.svg" alt="">
-							<div class="map__time">
+							<div class="map__time ">
 								Быстрая доставка по городу 200 Р <br>
 								<span>Бесплатная доставка при заказе от 2 000 Р</span>
 							</div>
 
 						</div>
-						<div class="col-12 col-lg-3 white__block d-flex">
+						<div class="col-5 col-md-3 white__block d-flex">
 							<img class='car__icon'
 								src="./static/picture/icon/time__brown.svg" alt="">
 							<div class="map__time">
@@ -1087,12 +1091,12 @@
 
 							</div>
 						</div>
-						<div class="col-12 col-lg-3  white__block
+						<div class="col-5 col-md-3  white__block
 						train__map__block d-flex">
 							<img class='car__icon'
 								src="./static/picture/icon/train__brown.svg" alt="">
 							<div class="map__time">
-								<p>10 минут от станции <br>
+								<p class='train__map__block-p'>10 минут от станции <br>
 									метро Северный Вокзал</p>
 
 							</div>
@@ -1111,13 +1115,16 @@
 				<div class="inst__head__right col-12 col-lg-6">
 					Мы в инстаграмм
 				</div>
-				<div class="inst__head__left col-12 col-lg-6 ">
-					<img src="./static/picture/icon/inst__black.svg" alt="">
-					<span>@PlovUzbekoff</span>
-					<button><img src="./static/picture/icon/arrow__left__black.svg" alt=""></button>
-					<button class='inst__button__white'><img
-							src="./static/picture/icon/arrow__right_white.svg"
-							alt=""></button>
+				<div class="col-12 col-lg-6 ">
+					<div class="inst__head__left">
+						<img src="./static/picture/icon/inst__black.svg" alt="">
+						<span>@PlovUzbekoff</span>
+						<button><img src="./static/picture/icon/arrow__left__black.svg"
+								alt=""></button>
+						<button class='inst__button__white'><img
+								src="./static/picture/icon/arrow__right_white.svg"
+								alt=""></button>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1134,13 +1141,13 @@
 					<div class="images__inst inst__img-3 col-12 col-sm-6 col-md-4 col-xl-2">
 						<img src="./static/picture/img/item23.png" alt="">
 					</div>
-					<div class="images__inst inst__img-4 col-12 col-sm-6 col-md-4 col-xl-2">
+					<div class="images__inst d-none d-xl-block inst__img-4 col-12 col-sm-6 col-md-4 col-xl-2">
 						<img src="./static/picture/img/item24.png" alt="">
 					</div>
-					<div class="images__inst inst__img-5 col-12 col-sm-6 col-md-4 col-xl-2">
+					<div class="images__inst d-none d-xl-block inst__img-5 col-12 col-sm-6 col-md-4 col-xl-2">
 						<img src="./static/picture/img/item25.png" alt="">
 					</div>
-					<div class="images__inst inst__img-6 col-12 col-sm-6 col-md-4 col-xl-2">
+					<div class="images__inst d-none d-xl-block inst__img-6 col-12 col-sm-6 col-md-4 col-xl-2">
 						<img src="./static/picture/img/item26.png" alt="">
 					</div>
 				</div>
@@ -1152,7 +1159,7 @@
 		<div class="container">
 			<div class="footer__content">
 				<div class="top__content">
-					<div class="row footer__top__margin" >
+					<div class="row footer__top__margin">
 						<div class="footer__number col-12 col-md-3 d-flex">
 							<div class="footer__background__img">
 								<img src="./static/picture/icon/mobile__white.svg"
@@ -1226,7 +1233,8 @@
 									<img src="./static/picture/icon/playmarket.svg"
 										alt="">
 									<span style="margin-left: 15px;">
-										Доступно в <br class="d-none d-md-block">
+										Доступно в <br
+											class="d-none d-md-block">
 										Google Play
 									</span>
 								</a>
@@ -1238,7 +1246,8 @@
 								<a class="play__market__conent d-flex" href="">
 									<img src="./static/picture/icon/ios.svg" alt="">
 									<span class='ios__span'>
-										Загрузите на <br class="d-none d-md-block">
+										Загрузите на <br
+											class="d-none d-md-block">
 										AppStore
 									</span>
 								</a>
@@ -1252,6 +1261,7 @@
 		</div>
 	</div>
 	</div>
+	<script src="./static/css/inc/media/script.js"></script>
 </body>
 
 </html>

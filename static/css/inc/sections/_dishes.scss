@@ -1,25 +1,23 @@
-.dishes{
+.dishes {
 	margin-top: 60px;
-	.top__name{
+	.top__name {
 		color: #331f1c;
 		font-size: 45px;
 		font-family: "TT Firs Neue Regular";
 	}
-	.uzbek__dish__menu{
+	.uzbek__dish__menu {
 		margin-top: 15px;
 		margin-bottom: 30px;
 		overflow-y: hidden;
-   		 overflow-x: auto;
-    		overflow-scrolling: touch;
+		overflow-x: auto;
+		overflow-scrolling: touch;
 	}
-	.uzbek__dish__menu p{
+	.uzbek__dish__menu p {
 		color: #81736c;
-		font-family: "TT Firs Neue ExtraBold";
+		font-weight: 800;
 		background-color: #f7f1e5;
 		border-radius: 15px;
 		padding: 5px 10px;
-		margin: 0 10px;
-		
-
+		margin: 0 5px;
 	}
 }
