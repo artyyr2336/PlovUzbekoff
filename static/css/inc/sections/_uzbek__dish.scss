@@ -4,6 +4,12 @@
 		font-family: "TT Firs Neue Regular";
 		color: #331f1c;
 		font-weight: bold;
+	
+	}
+	.uzbek__dish__menu{
+		overflow-y: hidden;
+		overflow-x: auto;
+		overflow-scrolling: touch;
 	}
 	.uzbek__dish__menu p{
 		background-color: #f7f1e5;
@@ -16,5 +22,6 @@
 		font-weight: bold;
 		margin-top: 20px;
 		margin-bottom: 35px;
+
 	}
 }

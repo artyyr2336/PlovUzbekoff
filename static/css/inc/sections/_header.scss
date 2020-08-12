@@ -1,10 +1,109 @@
 
 header {
+	ul{
+		padding-left: 10px;
+	}
 	margin-top: 20px;
 	.header__logo__img {
 		width: 140%;
 	}
 	.number {
 		margin-right: -500px;
+	}
+	.bacground__phone{
+		background-color: #f7f1e5;
+		border-radius: 300px;
+		width: 35px;
+		height: 35px;
+		img{
+			width: 20px;
+			margin-left: 7px;
+			margin-top: 5px;
+		}
+	}
+	.menu__header__top__buttons a{
+		color: #857977;
+	}
+	.first__menu{
+		margin-left: 40px;
+	}
+	.first__menu__li{
+		margin-left: 25px;
+	}
+	.end__li{
+	
+			width: 110px;
+		
+	}
+	.menu__header__phone{
+		margin-left: 90px;
+		.number{
+			color: #331f1c;
+			font-family: "TT Firs Neue ExtraBold";
+			margin-left: 15px;
+		}
+
+	}
+	.menu__header__button__block{
+		.header__menu{
+			margin-left: 50px;
+			a{
+				color: #331f1c;
+				font-family: "TT Firs Neue ExtraBold";
+				
+			}
+		}
+		.menu__header__button {
+			span{
+				font-family: "TT Firs Neue ExtraBold";
+			}
+			a{
+				color: #331f1c;
+			}
+			img{
+				width: 20px;
+			}
+			.buton__header__buy{
+				width: 150px;
+			}
+			.header__button__color{
+				background-color: #f7f1e5;
+				padding: 10px 25px;
+				border-radius: 35px;
+				height: 45px;
+				margin-left: 10px;
+				margin-top: 5px;
+				span{
+					margin-left: 15px;
+
+				}
+				.sum__items{
+					background-color: #c0482f;
+					width: 35px;
+					height: 25px;
+					border-radius: 35px;
+					margin-left: 15px;
+					p{
+						color: #ffffff;
+						font-family: "TT Firs Neue ExtraBold";
+						margin-left: 12px;
+						margin-top: 2px;
+
+					}
+				}
+			}
+			.button__color__black{
+				background-color: #331f1c;
+				box-shadow:13px 10px 11px 0px rgba(0,0,0,0.2);
+				-webkit-box-shadow:13px 10px 11px 0px rgba(0,0,0,0.2);
+				-moz-box-shadow:13px 10px 11px 0px rgba(0,0,0,0.2);
+				a{
+					color: white;
+				}
+				span{
+					margin-left: 0;
+				}
+			}
+		}
 	}
 }

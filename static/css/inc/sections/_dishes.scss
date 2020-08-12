@@ -8,6 +8,9 @@
 	.uzbek__dish__menu{
 		margin-top: 15px;
 		margin-bottom: 30px;
+		overflow-y: hidden;
+   		 overflow-x: auto;
+    		overflow-scrolling: touch;
 	}
 	.uzbek__dish__menu p{
 		color: #81736c;
@@ -16,6 +19,7 @@
 		border-radius: 15px;
 		padding: 5px 10px;
 		margin: 0 10px;
+		
 
 	}
 }

@@ -8,7 +8,7 @@
 
 	.proposal__left__block {
 		margin-top: 40px;
-		padding-left: 65px;
+		padding-left: 8%
 	}
 	.proposal__left__text-1 {
 		color: #c0482f;
@@ -21,11 +21,13 @@
 		margin-top: -15px;
 	}
 	.img__item__block {
-		width: 500px;
+		width: 100%;
+		height: auto;
 		margin: auto auto;
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
+
 	.proposal__right {
 		margin: auto auto;
 	}
@@ -34,6 +36,7 @@
 	}
 
 	.proposal__left__bonus {
+		margin: 5px;
 		p {
 			font-size: 15px;
 			font-family: "TT Firs Neue Medium";
@@ -42,6 +45,7 @@
 	}
 	.button_2{
 		margin-top: 30px;
+		margin-bottom: 20px;
 
 	}
 

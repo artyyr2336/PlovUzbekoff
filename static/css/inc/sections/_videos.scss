@@ -1,16 +1,19 @@
 .videos {
+	position: relative;
 	margin-top: 50px;
 	.video__header-left {
 		font-size: 40px;
 		color: #331f1c;
 		font-family: "TT Firs Neue Regular";
 		font-weight: bold;
+		padding-left: 30px;
 	}
 	.video__header-right {
 		color: #331f1c;
 		font-size: 15px;
 		font-family: "TT Firs Neue ExtraBold";
 		margin-top: 25px;
+		padding-left: 240px;
 		img {
 			width: 30px;
 		}
@@ -23,37 +26,61 @@
 	}
 	.vid__1,
 	.vid__2 {
-		margin-left: -40px;
 		position: relative;
 		img {
-			width: 490px;
+			width: 780px;
 		}
-		.video__text{
+		.video__text {
 			position: absolute;
 			margin-top: -120px;
 			margin-left: 40px;
-			img{
-				width: 45px;
-				height: 45px;
+			.video__play {
 				background-color: white;
-				border-radius: 10px;
+				width: 70px;
+				height: 70px;
+				border-radius: 25px;
 			}
-			.video__time{
+			img {
+				width: 32px;
+				border-radius: 10px;
+				position: absolute;
+				margin-top: 17px;
+				margin-left: 20px;
+			}
+			.video__time {
 				color: white;
 				font-size: 10px;
 				margin-right: 90px;
+				font-family: "TT Firs Neue Medium";
+				margin-left: 40px;
 			}
-			.video__opis{
+			.video__opis {
 				color: white;
-				font-size: 40px;
+				font-size: 20px;
+				font-family: "TT Firs Neue ExtraBold";
+				margin-top: -10px;
+				margin-left: 40px;
 			}
 		}
 	}
-	.vid__left__arrow {
+	.vid__arrow {
+		.vid__left__arrow__button {
+			img {
+				width: 25px;
+			}
+		}
+		.vid__arrow__right {
+			position: absolute;
+			right: 150px;
+			top: 180px;
+		}
+		.vid__arrow__left {
+			position: absolute;
+			left: 150px;
+			top: 180px;
+		}
 		img {
 			width: 25px;
-			margin-top: 100px;
 		}
 	}
-
 }

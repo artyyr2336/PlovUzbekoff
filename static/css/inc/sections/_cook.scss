@@ -1,11 +1,18 @@
 .cook{
-
+	.br__cook{
+		display: none;
+	}
 	.cook__block{
 		background-color: #f7f1e5;
 		border: 1px solid #f7f1e5;
 		border-radius: 30px;
 		padding-top: 40px;
 		margin-top: 50px;
+		.cook__top__col{
+			span{
+				margin: auto;
+			}
+		}
 	
 		.cook__top__left{
 			margin-left: 40px;
@@ -40,8 +47,10 @@
 				background-color: white;
 				border-radius: 15px;
 				position: relative;
+				font-size: 13px;
+				font-family: "TT Firs Neue ExtraBold";
 				img{
-					width: 16px;
+					width: 10px;
 				}
 				.cook__top__col-1,.cook__top__col-2{
 					margin: 0 10px;
@@ -49,6 +58,7 @@
 			}
 			.cook__top__cop{
 				margin-left: 10px;
+				color: #c0482f;
 			}
 			.cook__top__set{
 				input{
@@ -61,7 +71,8 @@
 		}
 		.cook__top__center{
 			img{
-				width: 300px;
+				width: 100%;
+				height: auto;
 				margin-bottom: 20px;
 			}
 
@@ -92,7 +103,7 @@
 		}
 	}
 	.cook__left-take{
-		margin-left:50px;
+		margin-left:30px;
 
 		.cook__button__name{
 			font-family: "TT Firs Neue Regular";
@@ -104,7 +115,6 @@
 			border-bottom: 1px solid #dcd5c7;
 			p{
 				margin-top: 15px !important	;
-				margin-left: 20px;
 			}
 		
 			img{
@@ -145,4 +155,8 @@
 			}
 		}
 	}
+	
+}
+.cook .cook__left-take .cook__content__block img {
+	margin-right: 10px;
 }
