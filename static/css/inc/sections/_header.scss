@@ -1,8 +1,17 @@
 header {
+	background-color: white;
+	z-index: 99;
+	position: fixed;
+	right: 30px;
+	left: 0;
+	top: 0;
+	margin: auto;
+	.main-item-img{
+		margin-top: 20px;
+	}
 	ul {
 		padding-left: 10px;
 	}
-	margin-top: 20px;
 	.header__logo__img {
 		width: 140%;
 	}
@@ -33,7 +42,7 @@ header {
 		width: 110px;
 	}
 	.menu__header__phone {
-		margin-left: 90px;
+		margin-left: 50px;
 		.number {
 			color: #331f1c;
 			font-weight: 800;

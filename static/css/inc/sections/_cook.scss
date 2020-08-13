@@ -15,7 +15,7 @@
 		}
 
 		.cook__top__left {
-			margin-left: 40px;
+
 			.cook__top__name-1 {
 				font-size: 45px;
 				color: #331f1c;
@@ -61,8 +61,14 @@
 				color: #c0482f;
 			}
 			.cook__top__set {
-				input {
-					margin-top: 30px;
+				label{
+					font-size: 13px;
+					input {
+						margin-top: 30px;
+					}
+				}
+				label:not(:first-child){
+					margin-left: 5px;
 				}
 			}
 		}
