@@ -2,12 +2,14 @@ header {
 	background-color: white;
 	z-index: 99;
 	position: fixed;
-	right: 30px;
+	right: 0;
 	left: 0;
 	top: 0;
 	margin: auto;
+	height: 128px;
 	.main-item-img{
 		margin-top: 20px;
+		margin-right: 20px;
 	}
 	ul {
 		padding-left: 10px;

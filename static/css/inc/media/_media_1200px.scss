@@ -48,6 +48,7 @@
 	}
 
 	header {
+		height: 85px;
 		.header__br {
 			display: none;
 		}
@@ -59,14 +60,25 @@
 
 			.menu__header__phone {
 				.bacground__phone {
-					display: none;
+					
 				}
 
 				.number {
-					display: none;
+					
 				}
 			}
 			.menu__header__button__block {
+				.menu__header__phon{
+					position: absolute;
+					right: 300px;
+					top: 20px;
+					.bacground__phon{
+
+					}
+					.number{
+
+					}
+				}
 				.menu__header__button__menu {
 					width: 100%;
 
@@ -103,17 +115,24 @@
 					}
 					.header__button__color {
 						margin-left: 0;
-						display: none;
+						position: absolute;
+						right: 60px;
+						top: 8px;
+						padding: 10px 5px;
+						
 
 						span {
 							margin-left: 5px;
+							display: none;
 						}
 						.sum__items {
+							margin-left: 5px;
 							p {
 							}
 						}
 					}
 					.button__color__black {
+						display: none;
 						a {
 						}
 						span {
@@ -139,9 +158,11 @@
 			margin-top: 10px;
 		}
 	}
-	.proposal-head{
+
+	.proposal:first-child{
 		margin-top: 85px;
 	}
+
 	.info {
 		.info__block {
 			margin-left: auto;

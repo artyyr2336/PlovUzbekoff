@@ -1,6 +1,3 @@
-.proposal__head{
-	margin-top: 135px;
-}
 .proposal {
 
 	.container {
@@ -53,4 +50,8 @@
 		margin-bottom: 20px;
 	}
 
+}
+
+.proposal:first-child{
+	margin-top: 135px;
 }
