@@ -1,26 +1,28 @@
-@media screen and (max-width:480px){
+@media screen and (max-width: 480px) {
 	header .header__logo__img {
-		width: 130px;}
+		width: 130px;
+	}
 	.cook .cook__block .cook__top__left .cook__top__name-1 {
 		font-size: 40px;
-	margin-bottom: 15px;
+		margin-bottom: 15px;
 	}
 
 	.cook .cook__block .cook__top__left .cook__top__name-2 {
 		font-size: 33px;
 	}
-	.potato__baran{
+	.potato__baran {
 		margin-top: 20px;
 	}
-	.cook{
-		.br__cook{
+	.cook {
+		.br__cook {
 			display: inline;
 		}
 	}
-	.cook__content__left, .cook__content__right{
+	.cook__content__left,
+	.cook__content__right {
 		font-size: 12px;
 	}
-	.baran__button{
+	.baran__button {
 		width: 150px;
 		font-size: 12px;
 		padding: 10px 5px;
@@ -28,16 +30,7 @@
 	.videos .video__header-right {
 		font-size: 13px;
 	}
-	.proposal .proposal__left__block {
-		padding-left: 50px;
-	}
-	.proposal .proposal__left__block .proposal__left__bonus{
-		margin-top: 0;
-		.baran__col{
-			padding-left: 0;
-		}
 
-	}
 	.cook .cook__left-take .button_2 {
 		align-items: center;
 		font-size: 14px;
@@ -45,21 +38,40 @@
 	.cook .cook__left-take button img {
 		width: 20px;
 	}
-	.price__cook__constructor{
+	.price__cook__constructor {
 		padding: 0 !important;
 	}
-	.proposal .proposal__left__text-1 {
-		font-size: 38px;
-		
+
+	.proposal {
+		.proposal__left__text-1 {
+			font-size: 38px;
+		}
+
+		.proposal__left__text-2 {
+			font-size: 27px;
+			margin-bottom: 0;
+		}
+
+		.proposal__left__block {
+			padding-left: 50px;
+
+			.proposal__left__bonus {
+				margin-top: 0;
+				.baran__col {
+					padding-left: 0;
+				}
+			}
+		}
 	}
-	.proposal .proposal__left__text-2 {
-		font-size: 27px;
-		margin-bottom: 0;
+
+	.proposal__head{
+		margin-top: 75px;
 	}
-	.cook__content__left{
+
+	.cook__content__left {
 		padding-left: 0 !important;
 	}
-	.cook__content__right{
+	.cook__content__right {
 		padding-left: 0 !important;
 	}
 	.cook .cook__left-take .cook__price-1 {
@@ -72,25 +84,25 @@
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
-	.potato__baran{
+	.potato__baran {
 		margin-top: 10px;
 	}
-	.instagramm{
+	.instagramm {
 		margin-top: 40px;
 		font-size: 35px;
-		.inst__head__right{
+		.inst__head__right {
 			font-size: 38px;
 		}
-		.inst__head__left{
-			span{
+		.inst__head__left {
+			span {
 				font-size: 18px;
 			}
-			img{
+			img {
 				width: 16px;
 			}
 		}
-		.instagramm__images{
-			.inst__img-2{
+		.instagramm__images {
+			.inst__img-2 {
 				display: none;
 			}
 		}
@@ -100,32 +112,31 @@
 		margin-bottom: 20px;
 	}
 	.map {
-		.map__name{
-			.map__name__text-1{
+		.map__name {
+			.map__name__text-1 {
 				font-size: 29px;
 			}
 		}
 		.map__card {
-
 			.map__button {
 				display: none;
 			}
 		}
 	}
-	.uzbek__dish{
-		.top__name{
+	.uzbek__dish {
+		.top__name {
 			font-size: 35px;
 		}
 	}
-	.dishes{ 
+	.dishes {
 		.top__name {
 			font-size: 30px;
-	
 		}
 	}
-	.big__company h2{
+	.big__company h2 {
 		font-size: 30px;
 	}
+
 	.footer {
 		margin-top: 50px;
 		.footer__content {
@@ -148,11 +159,9 @@
 		.footer__bumber__conten__text-1 {
 		}
 		.footer__bumber__conten__text-2 {
-			font-size: 10px;
 		}
 		.button__footer {
 			font-size: 11px;
-			
 		}
 		.footer__number,
 		.footer__mail {
@@ -162,7 +171,7 @@
 		.bottom__content {
 			margin-top: 40px;
 		}
-		
+
 		.footer__button {
 			margin-top: 10px;
 			margin-left: 25px;
@@ -173,7 +182,6 @@
 			display: none;
 		}
 		.first__column {
-			
 			img {
 				font-size: 10px;
 			}
@@ -185,8 +193,8 @@
 		}
 		.download {
 			margin-left: 30px;
-			.ios__span{
-				margin-left: 0
+			.ios__span {
+				margin-left: 0;
 			}
 			.messengers__color {
 			}
@@ -209,28 +217,18 @@
 			margin-bottom: 40px;
 		}
 	}
-	
+
 	header {
-
-
 		.menu__header {
-
 			.menu__header__button__block {
-				.menu__header__phon{
+				.menu__header__phon {
 					position: absolute;
 					right: 145px;
-					.bacground__phon{
-
-					}
-					.number{
+					.number {
 						display: none;
-
 					}
 				}
 			}
 		}
 	}
-	
-
-	
 }

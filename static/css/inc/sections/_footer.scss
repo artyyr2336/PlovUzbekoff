@@ -22,18 +22,17 @@
 	}
 	.footer__bumber__content {
 		margin-left: 10px;
-	}
-	.footer__bumber__conten__text-1 {
-		color: #c9c3c2;
-		font-family: "TT Firs Neue Regular";
-		font-size: 15px;
-		margin-top: 10px;
-	}
-	.footer__bumber__conten__text-2 {
-		color: #331f1c;
-		font-family: "TT Firs Neue Regular";
-		font-size: 23px;
-		margin-top: -20px;
+		.footer__bumber__conten__text-1 {
+			color: #c9c3c2;
+			font-family: "TT Firs Neue Regular";
+			margin-top: 10px;
+		}
+		.footer__bumber__conten__text-2 {
+			color: #331f1c;
+			font-family: "TT Firs Neue Regular";
+			font-size: 23px;
+			margin-top: -20px;
+		}
 	}
 	.button__footer {
 		color: white;
@@ -49,6 +48,9 @@
 	}
 
 	.bottom__content {
+		.footer__item__ios{
+			margin-left: 10px;
+		}
 	}
 	.footer__button {
 		margin-top: -35px;
@@ -94,7 +96,7 @@
 		.play__market__conent {
 			img {
 				width: 20px;
-				margin-left: 25px;
+				margin-left: 15px;
 			}
 		}
 		span {

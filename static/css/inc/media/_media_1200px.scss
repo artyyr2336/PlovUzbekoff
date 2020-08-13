@@ -144,6 +144,7 @@
 	}
 
 	.proposal{
+
 		.proposal__left__text-1 {
 			font-size: 45px;
 		}
@@ -157,10 +158,15 @@
 			}
 			margin-top: 10px;
 		}
+		.price__baran {
+			font-size: 20px;
+		}
+		.weight__baran {
+			font-size: 20px;
+		}
 	}
-
-	.proposal:first-child{
-		margin-top: 85px;
+	.proposal__head{
+		margin-top: 100px;
 	}
 
 	.info {
@@ -203,14 +209,7 @@
 	.cook__content__right {
 		font-size: 15px;
 	}
-	.proposal {
-		.price__baran {
-			font-size: 20px;
-		}
-		.weight__baran {
-			font-size: 20px;
-		}
-	}
+	
 	.videos .vid__1 .video__text .video__opis,
 	.videos .vid__2 .video__text .video__opis {
 		margin-left: 10px;
@@ -283,82 +282,69 @@
 			}
 		}
 	}
-}
-.instagramm {
-	.inst__head__left {
-		padding-left: 150px;
-	}
-	.instagramm__images {
-		margin: auto;
-		.first__img {
-			text-align: center;
+	.footer {
+		.footer__content {
+			.footer__top__margin {
+				margin-bottom: 40px;
+			}
 		}
-		.images__inst {
-			text-align: center;
+		.footer__background__img {
+			width: 50px;
+			height: 50px;
+			img {
+				width: 20px;
+			}
 		}
-
-		img {
-			margin-top: 10px;
+		.footer__bumber__content {
+			.footer__bumber__conten__text-1 {
+			}
+			.footer__bumber__conten__text-2 {
+				font-size: 19px;
+			}
 		}
-	}
-}
-.footer {
-	.footer__content {
-		.footer__top__margin {
-			margin-bottom: 40px;
+		.button__footer {
 		}
-	}
-	.footer__background__img {
-		width: 50px;
-		height: 50px;
-		img {
-			width: 20px;
+		.footer__number,
+		.footer__mail {
 		}
-	}
-	.footer__bumber__content {
-	}
-	.footer__bumber__conten__text-1 {
-	}
-	.footer__bumber__conten__text-2 {
-		font-size: 15px;
-	}
-	.button__footer {
-	}
-	.footer__number,
-	.footer__mail {
-	}
-
-	.bottom__content {
-	}
-	.footer__button {
-	}
-	.footer__white__button {
-	}
-	.button__up {
-		img {
+	
+		.bottom__content {
+			.download{
+				margin-top: 20px;
+			}
+			.footer__item__googleplay{
+				margin-left: 220px;
+			}
 		}
-	}
-	.first__column {
-		img {
+		.footer__button {
 		}
-		a {
+		.footer__white__button {
 		}
-		a:hover {
-		}
-	}
-	.download {
-		margin-left: 200px;
-		margin-top: 20px;
-		.messengers__color {
-		}
-
-		a {
-		}
-		.play__market__conent {
+		.button__up {
 			img {
 			}
-			span {
+		}
+		.first__column {
+			img {
+			}
+			a {
+			}
+			a:hover {
+			}
+		}
+		.download {
+			.messengers__color {
+			}
+	
+			a {
+			}
+			.play__market__conent {
+				img {
+				}
+				span {
+				}
 			}
 		}
 	}
+	
 }

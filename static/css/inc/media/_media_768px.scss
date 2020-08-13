@@ -4,11 +4,23 @@
 			width: 210%;
 		}
 	}
+	.footer .footer__content {
+		height: 230px;
+	}
+	.footer .button__footer {
+		margin-left: 20px;
+	}
 	.instagramm{
 		margin-top: 50px;
 	}
+	.footer .bottom__content .download {
+		margin-left: 40px;
+	}
 	.instagramm .instagramm__images .inst__img-3 {
 		display: none;
+	}
+	.footer .download .play__market__conent span,.footer .download .ios__span {
+		padding: 5px;
 	}
 	.proposal{
 		.proposal__right{
@@ -25,6 +37,12 @@
 		.proposal__str-1{
 			flex-direction: column-reverse;
 		}
+	}
+	.footer .footer__number, .footer .footer__mail {
+		margin-bottom: 20px;
+	}
+	.footer .footer__number{
+		margin-top: 1px;
 	}
 	.baran .price__baran, .baran .weight__baran {
 		padding-left: 0;
@@ -51,7 +69,6 @@
 	.big__company__item .item__img {
 		height: 220px;
 	}
-	.footer .footer__bumber__conten__text-2 {font-size: 18px;}
 	.baran__reverse{
 		flex-direction: column-reverse;
 	}
@@ -109,8 +126,27 @@
 	.footer {
 		margin-top: 50px;
 		.footer__content {
+			height: 230px;
 			.footer__top__margin {
 				margin-bottom: 10px;
+			}
+			.bottom__content {
+				margin-top: 40px;
+				.button__up {
+					display: none;
+				}
+				.first__column__style{
+					margin-left: 25px;
+					
+					img {
+						
+					}
+					a {
+						
+					}
+					a:hover {
+					}
+				}
 			}
 		}
 		.footer__background__img {
@@ -124,11 +160,12 @@
 			}
 		}
 		.footer__bumber__content {
+			margin-bottom: 20px;
+   			 margin-top: 1px;
 		}
 		.footer__bumber__conten__text-1 {
 		}
 		.footer__bumber__conten__text-2 {
-			font-size: 10px;
 		}
 		.button__footer {
 			font-size: 11px;
@@ -137,21 +174,19 @@
 		.footer__number,
 		.footer__mail {
 			margin-top: 5px;
+			margin-bottom: 20px;
 		}
 
-		.bottom__content {
-			margin-top: 40px;
-		}
+	
 		.footer__button {
 			margin-top: 10px;
 			margin-left: 25px;
 		}
 		.footer__white__button {
 		}
-		.button__up {
-			display: none;
-		}
-		.first__column {
+		
+		.first__column__style{
+			margin-left: 25px;
 			
 			img {
 				

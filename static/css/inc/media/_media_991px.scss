@@ -1,5 +1,5 @@
 @media screen and (max-width: 991px) {
-	header{
+	header {
 		height: 60px;
 	}
 	.proposal .img__item__block {
@@ -11,36 +11,34 @@
 		.proposal__left__block {
 			margin-top: 0;
 			margin: 0 auto;
-			button{
+			button {
 				height: 35px !important;
 			}
 		}
-		.proposal__item{
+		.proposal__item {
 			margin-top: 5px;
 			padding-left: 0px;
 		}
-		.proposal__left__bonus{
-			p{
+		.proposal__left__bonus {
+			p {
 				margin: auto 0px auto 8px;
 			}
-			
 		}
-		
 	}
-	.baran .price__baran, .baran .weight__baran{
+	.baran .price__baran,
+	.baran .weight__baran {
 		margin-top: 0;
 	}
 	.proposal .button_2 {
 		margin-top: 10px;
 		margin-bottom: 20px;
 	}
-	.info__block{
+	.info__block {
 		padding: 5px 15px;
-		.info__img{
-
+		.info__img {
 		}
 	}
-	.baran__button{
+	.baran__button {
 		padding-top: 5px;
 		padding-bottom: 5px;
 	}
@@ -50,7 +48,7 @@
 		width: 150px;
 	}
 	.cook {
-		.cook__price-1{
+		.cook__price-1 {
 			margin-top: 20px !important;
 		}
 		.cook__block {
@@ -69,14 +67,14 @@
 	.cook .cook__block .cook__top__center img {
 		width: 25%;
 	}
-	.cook__top__left{
-		.cook__top__set{
-			p:not(:last-child){
+	.cook__top__left {
+		.cook__top__set {
+			p:not(:last-child) {
 				height: 10px;
 			}
 		}
 	}
-	.cook .cook__left-take button{
+	.cook .cook__left-take button {
 		margin-top: 20px !important;
 		margin-bottom: 20px !important;
 	}
@@ -86,19 +84,20 @@
 			height: 60px;
 		}
 	}
-	.big__company__item{
-		.item__name{
+	.big__company__item {
+		.item__name {
 			height: 35px;
-			p{
+			p {
 				font-size: 20px;
 			}
 		}
 	}
-
+	.first__img{
+		text-align: center;
+	}
 	.cook {
 		.cook__top__right {
 			display: none;
-			
 		}
 		.cook__top__left {
 		}
@@ -165,17 +164,16 @@
 	.videos .vid__2 img {
 		margin: 10px 0;
 	}
-	.videos{
+	.videos {
 		margin-top: 30px;
 	}
-	.map{
+	.map {
 		margin-top: 30px;
-		
 	}
 	.map .map__card .map__top__info .white__block .map__time p {
 		font-size: 15px;
 	}
-	.map .map__card .map__top__info{
+	.map .map__card .map__top__info {
 		top: 10px;
 	}
 	.map .map__card .map__button {
@@ -183,29 +181,21 @@
 		width: 250px;
 	}
 	.baran {
-
 		.price__baran,
 		.weight__baran {
-
 		}
-		.price__baran{
-
+		.price__baran {
 		}
-		.weight__baran{
-
-	
+		.weight__baran {
 		}
-		.opis__baran{
-
+		.opis__baran {
 		}
-		.baran__button{
+		.baran__button {
 			width: 250px;
 			font-size: 15px;
 			padding: 10px 5px;
 		}
-	
 	}
-	
 
 	.footer {
 		.footer__content {
@@ -214,6 +204,7 @@
 			}
 		}
 		.footer__background__img {
+			display: none;
 			margin-top: 20px;
 			width: 30px;
 			height: 30px;
@@ -224,21 +215,28 @@
 			}
 		}
 		.footer__bumber__content {
+			.footer__bumber__conten__text-1 {
+			}
+			.footer__bumber__conten__text-2 {
+				font-size: 18px;
+			}
 		}
-		.footer__bumber__conten__text-1 {
-		}
-		.footer__bumber__conten__text-2 {
-			font-size: 10px;
-		}
+
 		.button__footer {
 			font-size: 11px;
-			
 		}
 		.footer__number,
 		.footer__mail {
+			margin-left: 10px;
 		}
 
 		.bottom__content {
+			.download {
+				margin-top: 30px;
+			}
+			.footer__item__googleplay{
+				margin-left: 185px;
+			}
 		}
 		.footer__button {
 			margin-top: -25px;
@@ -260,8 +258,8 @@
 			}
 		}
 		.download {
-			.ios__span{
-				margin-left: 0
+			.ios__span {
+				margin-left: 0;
 			}
 			.messengers__color {
 			}
@@ -277,5 +275,4 @@
 			}
 		}
 	}
-
 }
