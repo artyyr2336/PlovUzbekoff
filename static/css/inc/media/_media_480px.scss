@@ -30,6 +30,10 @@
 	.proposal .proposal__left__block {
 		padding-left: 50px;
 	}
+	.proposal .proposal__left__block .proposal__left__bonus{
+		margin-top: 0;
+
+	}
 	.cook .cook__left-take .button_2 {
 		align-items: center;
 		font-size: 14px;
@@ -42,9 +46,11 @@
 	}
 	.proposal .proposal__left__text-1 {
 		font-size: 38px;
+		
 	}
 	.proposal .proposal__left__text-2 {
 		font-size: 27px;
+		margin-bottom: 0;
 	}
 	.cook__content__left{
 		padding-left: 0 !important;
