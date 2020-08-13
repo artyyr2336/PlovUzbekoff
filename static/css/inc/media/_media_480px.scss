@@ -24,8 +24,27 @@
 		font-size: 12px;
 		padding: 10px 5px;
 	}
+	.videos .video__header-right {
+		font-size: 13px;
+	}
+	.proposal .proposal__left__block {
+		padding-left: 50px;
+	}
+	.cook .cook__left-take .button_2 {
+		align-items: center;
+		font-size: 14px;
+	}
+	.cook .cook__left-take button img {
+		width: 20px;
+	}
 	.price__cook__constructor{
 		padding: 0 !important;
+	}
+	.proposal .proposal__left__text-1 {
+		font-size: 38px;
+	}
+	.proposal .proposal__left__text-2 {
+		font-size: 27px;
 	}
 	.cook__content__left{
 		padding-left: 0 !important;
@@ -48,6 +67,7 @@
 	}
 	.instagramm{
 		margin-top: 40px;
+		font-size: 35px;
 		.instagramm__images{
 			.inst__img-2{
 				display: none;
@@ -78,9 +98,12 @@
 	}
 	.dishes{ 
 		.top__name {
-			font-size: 35px;
+			font-size: 30px;
 	
 		}
+	}
+	.big__company h2{
+		font-size: 30px;
 	}
 	.footer {
 		margin-top: 50px;
@@ -118,6 +141,7 @@
 		.bottom__content {
 			margin-top: 40px;
 		}
+		
 		.footer__button {
 			margin-top: 10px;
 			margin-left: 25px;
@@ -164,6 +188,7 @@
 			margin-bottom: 40px;
 		}
 	}
+	
 
 	
 }

@@ -13,6 +13,7 @@
 		}
 		.proposal__item{
 			margin-top: 5px;
+			padding-left: 0px;
 		}
 		.proposal__left__bonus{
 			p{
@@ -21,6 +22,9 @@
 			
 		}
 		
+	}
+	.baran .price__baran, .baran .weight__baran{
+		margin-top: 0;
 	}
 	.proposal .button_2 {
 		margin-top: 10px;

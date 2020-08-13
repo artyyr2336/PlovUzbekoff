@@ -9,6 +9,7 @@
 		.proposal__right{
 			width: 80%;
 			margin: 0 auto;
+			padding-right: 10px;
 		}
 		.proposal__left{
 			margin: 0 auto;
@@ -19,6 +20,9 @@
 		.proposal__str-1{
 			flex-direction: column-reverse;
 		}
+	}
+	.baran .price__baran, .baran .weight__baran {
+		padding-left: 0;
 	}
 	.cook__content__left, .cook__content__right{
 		font-size: 13px;
@@ -33,12 +37,16 @@
 		margin-top: 20px;
 		margin-bottom: 15px;
 	}
+	.proposal .proposal__left__block {
+		padding-left: 70px;
+	}
 	.big__company__item img {
 		width: 200px;
 	}
 	.big__company__item .item__img {
 		height: 220px;
 	}
+	.footer .footer__bumber__conten__text-2 {font-size: 18px;}
 	.baran__reverse{
 		flex-direction: column-reverse;
 	}
@@ -53,6 +61,9 @@
 	}
 	.map__card .map__top__info .white__block {
 		margin-left: 0 !important;
+	}
+	.baran .price__baran{
+		margin-left: 0;
 	}
 	.map__card .map__top__info{
 		display: none;

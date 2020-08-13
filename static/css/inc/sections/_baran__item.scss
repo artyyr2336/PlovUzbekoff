@@ -7,20 +7,23 @@
 	}
 	.price__baran{
 		color: #331f1c;
-		font-size: 30px;
-		margin-left: 10px;
+		font-size: 28px;
 		justify-content: center;
-		margin: auto;
 	}
 	.weight__baran{
 		font-size: 30px;
-		margin-left: 10px;
 		color: #a99d95;
 
 	}
 	.opis__baran{
 		color: #331f1c;
 		font-family: "TT Firs Neue Medium";
+	}
+	.baran__reverse__button{
+		margin: auto;
+	}
+	.baran__button{
+		margin-bottom: 0;
 	}
 
 }
