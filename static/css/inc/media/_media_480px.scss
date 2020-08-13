@@ -68,6 +68,17 @@
 	.instagramm{
 		margin-top: 40px;
 		font-size: 35px;
+		.inst__head__right{
+			font-size: 38px;
+		}
+		.inst__head__left{
+			span{
+				font-size: 18px;
+			}
+			img{
+				width: 16px;
+			}
+		}
 		.instagramm__images{
 			.inst__img-2{
 				display: none;

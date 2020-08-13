@@ -8,12 +8,14 @@
 	.item__img {
 		height: 250px;
 		margin-top: 10px;
+		img{
+			margin-top: 20px;
+		}
 	}
 	img {
 		width: 230px;
 		display: block;
 		margin: auto auto;
-		margin-top: 20px;
 	}
 
 	.item__name {

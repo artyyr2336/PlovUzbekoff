@@ -15,6 +15,7 @@
 		}
 
 		.cook__top__left {
+			padding-left: 34px;
 
 			.cook__top__name-1 {
 				font-size: 45px;
@@ -61,6 +62,7 @@
 				color: #c0482f;
 			}
 			.cook__top__set {
+				margin-bottom: 15px;
 				label{
 					font-size: 13px;
 					input {
@@ -83,6 +85,9 @@
 			.cook__top___right-1 {
 				font-weight: 800;
 				font-size: 25px;
+			}
+			.cook__top___right-2{
+				padding-right: 10px;
 			}
 			.cook_top__right__img {
 				margin-top: -30px;
