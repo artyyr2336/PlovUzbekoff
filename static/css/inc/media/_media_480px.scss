@@ -165,7 +165,6 @@
 		}
 		.footer__number,
 		.footer__mail {
-			margin-top: 5px;
 		}
 
 		.bottom__content {
@@ -173,7 +172,7 @@
 		}
 
 		.footer__button {
-			margin-top: 10px;
+			margin-top: -20px;
 			margin-left: 25px;
 		}
 		.footer__white__button {
@@ -191,6 +190,7 @@
 			a:hover {
 			}
 		}
+		
 		.download {
 			margin-left: 30px;
 			.ios__span {
@@ -211,9 +211,13 @@
 				}
 			}
 		}
+		.footer__item{
+			margin-top: -30px;
+		}
 
 		.footer__item__ios {
-			margin-left: 30px !important;
+			margin-top: -20px;
+			margin-left: 40px !important;
 			margin-bottom: 40px;
 		}
 	}
