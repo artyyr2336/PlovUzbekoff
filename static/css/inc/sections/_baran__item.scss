@@ -7,12 +7,14 @@
 	}
 	.price__baran {
 		color: #331f1c;
-		font-size: 28px;
+		font-size: 20px;
 		justify-content: center;
+		margin: auto;
 	}
 	.weight__baran {
 		font-size: 30px;
 		color: #a99d95;
+		margin: auto;
 	}
 	.opis__baran {
 		color: #331f1c;
@@ -23,5 +25,8 @@
 	}
 	.baran__button {
 		margin-bottom: 0;
+		margin: auto;
+		height: 40px;
+		font-size: 12px;
 	}
 }
