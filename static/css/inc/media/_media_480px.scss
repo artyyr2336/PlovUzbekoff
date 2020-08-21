@@ -67,7 +67,7 @@
 		}
 	}
 
-	.proposal__head{
+	.proposal__head {
 		margin-top: 75px;
 	}
 
@@ -102,6 +102,9 @@
 			}
 			img {
 				width: 16px;
+			}
+			button {
+				margin-left: 0;
 			}
 		}
 		.instagramm__images {
@@ -176,7 +179,6 @@
 
 		.footer__button {
 			margin-top: -20px;
-			margin-left: 25px;
 		}
 		.footer__white__button {
 		}
@@ -193,7 +195,7 @@
 			a:hover {
 			}
 		}
-		
+
 		.download {
 			margin-left: 30px;
 			.ios__span {
@@ -210,7 +212,7 @@
 				}
 			}
 		}
-		.footer__item{
+		.footer__item {
 			margin-top: -30px;
 		}
 		.first__style__column {
@@ -225,8 +227,15 @@
 	}
 
 	header {
+		.header__container {
+		}
 		.menu__header {
 			.menu__header__button__block {
+				.menu__header__button {
+					img {
+						margin-right: 3px;
+					}
+				}
 				.menu__header__phon {
 					position: absolute;
 					right: 145px;
@@ -245,53 +254,40 @@
 			}
 		}
 		.video__content {
-
 		}
 		span {
 		}
 		.vid__1,
 		.vid__2 {
-
 			img {
-
 			}
 			.video__text {
-
 				.video__play {
 					width: 40px;
 					height: 40px;
-
 				}
 				img {
 					margin-top: 10px;
 					margin-left: 11px;
-
 				}
 				.video__time {
-
 				}
 				.video__opis {
 					margin-top: -19px;
-
 				}
 			}
 		}
 		.vid__arrow {
 			.vid__left__arrow__button {
 				img {
-
 				}
 			}
 			.vid__arrow__right {
-
 			}
 			.vid__arrow__left {
-
 			}
 			img {
-
 			}
 		}
 	}
-	
 }
