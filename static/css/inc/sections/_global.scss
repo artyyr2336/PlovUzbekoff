@@ -5,9 +5,7 @@ html,
 body {
 	font: 400 16px/1.5 "TT Firs Neue", sans-serif;
 	height: 100%;
-	overflow: hidden;
-	overflow-y: auto;
-	-webkit-overflow-scrolling: touch;
+
 }
 a:hover {
 	text-decoration: none;
@@ -21,4 +19,10 @@ button {
 }
 button:active {
 	border: 1px solid rgba(1, 1, 1, 0);
+}
+.global{
+	height: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 }

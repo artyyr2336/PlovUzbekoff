@@ -53,31 +53,14 @@
 			display: none;
 		}
 		.menu__header {
-
 			.first__menu__li {
 				margin-left: 0;
 			}
-
-			.menu__header__phone {
-				.bacground__phone {
-					
-				}
-
-				.number {
-					
-				}
-			}
 			.menu__header__button__block {
-				.menu__header__phon{
+				.menu__header__phon {
 					position: absolute;
 					right: 300px;
 					top: 20px;
-					.bacground__phon{
-
-					}
-					.number{
-
-					}
 				}
 				.menu__header__button__menu {
 					width: 100%;
@@ -102,24 +85,12 @@
 				}
 
 				.menu__header__button {
-					span {
-					}
-
-					a {
-					}
-
-					img {
-					}
-
-					.buton__header__buy {
-					}
 					.header__button__color {
 						margin-left: 0;
 						position: absolute;
 						right: 60px;
 						top: 8px;
 						padding: 10px 5px;
-						
 
 						span {
 							margin-left: 5px;
@@ -127,24 +98,17 @@
 						}
 						.sum__items {
 							margin-left: 5px;
-							p {
-							}
 						}
 					}
 					.button__color__black {
 						display: none;
-						a {
-						}
-						span {
-						}
 					}
 				}
 			}
 		}
 	}
 
-	.proposal{
-
+	.proposal {
 		.proposal__left__text-1 {
 			font-size: 45px;
 		}
@@ -165,7 +129,7 @@
 			font-size: 20px;
 		}
 	}
-	.proposal__head{
+	.proposal__head {
 		margin-top: 100px;
 	}
 
@@ -190,10 +154,6 @@
 					font-size: 41px;
 				}
 			}
-			.cook__top__right {
-				.cook_top__right__img {
-				}
-			}
 		}
 		.cook__top__col {
 			span {
@@ -209,7 +169,7 @@
 	.cook__content__right {
 		font-size: 15px;
 	}
-	
+
 	.videos .vid__1 .video__text .video__opis,
 	.videos .vid__2 .video__text .video__opis {
 		margin-left: 10px;
@@ -267,15 +227,12 @@
 		.red__map__block {
 			font-size: 15px;
 			padding: 0;
-
-			span {
-			}
 		}
 		.car__icon {
 			display: none;
 		}
 		.map__button {
-			bottom: 0;
+			bottom: 90;
 			margin-bottom: -60px;
 			p {
 				margin-top: 0;
@@ -296,55 +253,18 @@
 			}
 		}
 		.footer__bumber__content {
-			.footer__bumber__conten__text-1 {
-			}
 			.footer__bumber__conten__text-2 {
 				font-size: 19px;
 			}
 		}
-		.button__footer {
-		}
-		.footer__number,
-		.footer__mail {
-		}
-	
+
 		.bottom__content {
-			.download{
+			.download {
 				margin-top: 20px;
 			}
-			.footer__item__googleplay{
+			.footer__item__googleplay {
 				margin-left: 220px;
 			}
 		}
-		.footer__button {
-		}
-		.footer__white__button {
-		}
-		.button__up {
-			img {
-			}
-		}
-		.first__column {
-			img {
-			}
-			a {
-			}
-			a:hover {
-			}
-		}
-		.download {
-			.messengers__color {
-			}
-	
-			a {
-			}
-			.play__market__conent {
-				img {
-				}
-				span {
-				}
-			}
-		}
 	}
-	
 }

@@ -20,7 +20,7 @@
 			.cook__top__name-1 {
 				font-size: 45px;
 				color: #331f1c;
-				font-family: "TT Firs Neue Regular";
+				font-weight: 400;
 			}
 			.cook__top__name-2 {
 				font-size: 50px;
@@ -37,7 +37,7 @@
 				}
 			}
 			.cook__top__opis {
-				font-family: "TT Firs Neue Medium";
+				font-weight: 500;
 				font-size: 15px;
 				color: #331f1c;
 			}
@@ -63,13 +63,13 @@
 			}
 			.cook__top__set {
 				margin-bottom: 15px;
-				label{
+				label {
 					font-size: 13px;
 					input {
 						margin-top: 30px;
 					}
 				}
-				label:not(:first-child){
+				label:not(:first-child) {
 					margin-left: 5px;
 				}
 			}
@@ -86,12 +86,12 @@
 				font-weight: 800;
 				font-size: 25px;
 			}
-			.cook__top___right-2{
+			.cook__top___right-2 {
 				padding-right: 10px;
 			}
 			.cook_top__right__img {
 				margin-top: -30px;
-				font-family: "TT Firs Neue Regular";
+				font-weight: 400;
 			}
 		}
 	}
@@ -112,12 +112,12 @@
 		margin-left: 30px;
 
 		.cook__button__name {
-			font-family: "TT Firs Neue Regular";
+			font-weight: 400;
 			font-size: 25px;
 		}
 
 		.cook__content__block {
-			font-family: "TT Firs Neue Medium";
+			font-weight: 500;
 			border-bottom: 1px solid #dcd5c7;
 			p {
 				margin-top: 15px !important	;
@@ -143,7 +143,7 @@
 		}
 		.cook__price__video {
 			color: #958880;
-			font-family: "TT Firs Neue Regular";
+			font-weight: 400;
 			margin-top: 40px;
 			font-size: 25px;
 			margin-left: 15px;
