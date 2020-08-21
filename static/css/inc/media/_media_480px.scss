@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px) {
 	header .header__logo__img {
-		width: 130px;
+		width: 100px;
 	}
 	.cook .cook__block .cook__top__left .cook__top__name-1 {
 		font-size: 40px;
@@ -9,6 +9,9 @@
 
 	.cook .cook__block .cook__top__left .cook__top__name-2 {
 		font-size: 33px;
+	}
+	.cook .cook__block .cook__top__left .cook__top__set label:last-child {
+		margin-left: 0;
 	}
 	.potato__baran {
 		margin-top: 20px;
@@ -209,6 +212,9 @@
 		}
 		.footer__item{
 			margin-top: -30px;
+		}
+		.first__style__column {
+			padding-right: 0;
 		}
 
 		.footer__item__ios {

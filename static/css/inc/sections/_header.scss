@@ -16,9 +16,13 @@ header {
 	}
 	.header__logo__img {
 		width: 140%;
+		padding-top: 20px;
+		
+		
 	}
 	.number {
 		margin-right: -500px;
+		margin: auto;
 	}
 	.bacground__phone {
 		background-color: #f7f1e5;
@@ -28,7 +32,7 @@ header {
 		img {
 			width: 20px;
 			margin-left: 7px;
-			margin-top: 5px;
+			margin-top: 8px;
 		}
 	}
 	.menu__header__top{
@@ -52,6 +56,9 @@ header {
 			color: #331f1c;
 			font-weight: 800;
 			margin-left: 15px;
+			p{
+				margin: auto;
+			}
 		}
 	}
 	.menu__header__button__block {

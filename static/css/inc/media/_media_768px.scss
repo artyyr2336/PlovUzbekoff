@@ -1,7 +1,7 @@
 @media screen and (max-width:769.9999px){
 	header{
 		.header__logo__img{
-			width: 210%;
+			width: 100px;
 		}
 	}
 	.footer .footer__content {
@@ -138,10 +138,12 @@
 				.first__column__style{
 					margin-left: 25px;
 					
+					
 					img {
 						
 					}
 					a {
+						padding-left: 10px;
 						
 					}
 					a:hover {

@@ -49,6 +49,10 @@
 
 	header {
 		height: 85px;
+		.header__logo__img{
+			padding-top: 10px;
+			width: 100%;
+		}
 		.header__br {
 			display: none;
 		}
@@ -59,8 +63,13 @@
 			.menu__header__button__block {
 				.menu__header__phon {
 					position: absolute;
-					right: 300px;
+					right: 150px;
 					top: 20px;
+					.number{
+						p{
+							margin: auto;
+						}
+					}
 				}
 				.menu__header__button__menu {
 					width: 100%;
