@@ -1,6 +1,6 @@
-@media screen and (max-width:769.9999px){
-	header{
-		.header__logo__img{
+@media screen and (max-width: 769.9999px) {
+	header {
+		.header__logo__img {
 			width: 100px;
 		}
 	}
@@ -10,7 +10,7 @@
 	.footer .button__footer {
 		margin-left: 20px;
 	}
-	.instagramm{
+	.instagramm {
 		margin-top: 50px;
 	}
 	.footer .bottom__content .download {
@@ -19,35 +19,44 @@
 	.instagramm .instagramm__images .inst__img-3 {
 		display: none;
 	}
-	.footer .download .play__market__conent span,.footer .download .ios__span {
+	.footer .download .play__market__conent span,
+	.footer .download .ios__span {
 		padding: 5px;
 	}
-	.proposal{
-		.proposal__right{
+	.dishes{
+		.top__name{
+			font-size: 38px;
+		}
+	}
+	.proposal {
+		.proposal__right {
 			width: 80%;
 			margin: 0 auto;
 			padding-right: 10px;
 		}
-		.proposal__left{
+		.proposal__left {
 			margin: 0 auto;
 		}
-		.proposal__right{
+		.proposal__right {
 			margin: 0 auto;
 		}
-		.proposal__str-1{
+		.proposal__str-1 {
 			flex-direction: column-reverse;
 		}
 	}
-	.footer .footer__number, .footer .footer__mail {
+	.footer .footer__number,
+	.footer .footer__mail {
 		margin-bottom: 20px;
 	}
-	.footer .footer__number{
+	.footer .footer__number {
 		margin-top: 1px;
 	}
-	.baran .price__baran, .baran .weight__baran {
+	.baran .price__baran,
+	.baran .weight__baran {
 		padding-left: 0;
 	}
-	.cook__content__left, .cook__content__right{
+	.cook__content__left,
+	.cook__content__right {
 		font-size: 13px;
 	}
 	.cook .cook__left-take .cook__price-1 {
@@ -69,13 +78,19 @@
 	.big__company__item .item__img {
 		height: 220px;
 	}
-	.baran__reverse{
+	.baran__reverse {
 		flex-direction: column-reverse;
 	}
+
+	.baran .proposal .proposal__left__block button {
+		margin: 10px 60px 20px 60px;
+	}
+
 	.videos .video__header-right {
 		padding-left: 30px;
 	}
-	.price__baran, .baran .weight__baran {
+	.price__baran,
+	.baran .weight__baran {
 		margin-top: 10px;
 	}
 	.baran .price__baran {
@@ -84,19 +99,20 @@
 	.map__card .map__top__info .white__block {
 		margin-left: 0 !important;
 	}
-	.baran .price__baran{
+	.baran .price__baran {
 		margin-left: 0;
 	}
-	.map__card .map__top__info{
+	.map__card .map__top__info {
 		display: none;
 	}
 	.map .map__card .map__top__info {
 		top: unset;
+	}
 	.map {
 		margin-top: 40px;
 		.map__name {
 			.map__name__text-1 {
-				font-size: 25px;
+				font-size: 38px;
 			}
 		}
 		.map__adress {
@@ -114,14 +130,11 @@
 	}
 	.baran {
 		padding: 20px;
-		.proposal__left__block{
-			p{
-
+		.proposal__left__block {
+			p {
 			}
 		}
-	
 	}
-	
 
 	.footer {
 		margin-top: 50px;
@@ -135,16 +148,13 @@
 				.button__up {
 					display: none;
 				}
-				.first__column__style{
+				.first__column__style {
 					margin-left: 25px;
-					
-					
+
 					img {
-						
 					}
 					a {
 						padding-left: 10px;
-						
 					}
 					a:hover {
 					}
@@ -163,7 +173,7 @@
 		}
 		.footer__bumber__content {
 			margin-bottom: 20px;
-   			 margin-top: 1px;
+			margin-top: 1px;
 		}
 		.footer__bumber__conten__text-1 {
 		}
@@ -171,7 +181,6 @@
 		}
 		.button__footer {
 			font-size: 11px;
-			
 		}
 		.footer__number,
 		.footer__mail {
@@ -179,30 +188,27 @@
 			margin-bottom: 20px;
 		}
 
-	
 		.footer__button {
 			margin-top: 10px;
 			margin-left: 25px;
 		}
 		.footer__white__button {
 		}
-		
-		.first__column__style{
+
+		.first__column__style {
 			margin-left: 25px;
-			
+
 			img {
-				
 			}
 			a {
-				
 			}
 			a:hover {
 			}
 		}
 		.download {
 			margin-left: 30px;
-			.ios__span{
-				margin-left: 0
+			.ios__span {
+				margin-left: 0;
 			}
 			.messengers__color {
 			}
@@ -223,8 +229,5 @@
 			margin-left: 30px !important;
 			margin-bottom: 40px;
 		}
-	}
-	
-		
 	}
 }

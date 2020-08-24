@@ -29,6 +29,14 @@
 		width: 150px;
 		font-size: 12px;
 		padding: 10px 5px;
+		
+	}
+	.baran .proposal .proposal__left__block button{
+		margin: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 5px 5px;
 	}
 	.videos .video__header-right {
 		font-size: 13px;
@@ -94,7 +102,7 @@
 		margin-top: 40px;
 		font-size: 35px;
 		.inst__head__right {
-			font-size: 38px;
+			font-size: 29px;
 		}
 		.inst__head__left {
 			span {
@@ -250,6 +258,7 @@
 	}
 	.videos {
 		.video__header-left {
+			font-size: 32px;
 		}
 		.video__header-right {
 			img {

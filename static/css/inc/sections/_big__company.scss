@@ -3,7 +3,8 @@
 	border-radius: 25px;
 	margin: 0 auto;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	height: 100%;
+
 
 	.item__img {
 		height: 250px;
@@ -28,6 +29,7 @@
 		}
 	}
 	.item__text {
+		padding: 0 20px;
 		p {
 			color: #ada5a4;
 			text-align: center;
@@ -50,4 +52,12 @@
 }
 .big__company {
 	margin-top: 100px;
+	
+	h2{
+		font-weight: bold;
+		font-size: 40px;
+	}
+}
+.card__item{
+	margin-bottom: 10px;
 }
