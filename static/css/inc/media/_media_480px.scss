@@ -183,6 +183,14 @@
 
 		.bottom__content {
 			margin-top: 40px;
+			.download{
+				margin-top: 20px;
+			
+			}
+			.footer__item__googleplay{
+				margin-left: 0
+				
+			}
 		}
 
 		.footer__button {
@@ -206,13 +214,16 @@
 
 		.download {
 			margin-left: 30px;
+			padding-left: 5px;
 			.ios__span {
 				margin-left: 0;
 			}
 
 			.play__market__conent {
 				img {
-					margin-left: 8px;
+					margin-left: 0px;
+					width: 15px;
+					margin: auto;
 				}
 				span {
 					margin-left: 0px;
@@ -231,8 +242,9 @@
 
 		.footer__item__ios {
 			margin-top: -20px;
-			margin-left: 40px !important;
 			margin-bottom: 40px;
+			margin-right: 40px;
+			
 		}
 	}
 
